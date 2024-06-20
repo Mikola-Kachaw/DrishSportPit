@@ -3,14 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: Simpsonfont;
     src: url('fonts/Simpsonfont.ttf');
 }
+
+.mw-85 {
+    max-width: 85px;
+}
+
 body {
     font-family: Simpsonfont;
     color: black;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+.all {
+    margin-top: 98px;
+}
+
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
@@ -52,7 +67,7 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked ~ #controls label:nth-child(3){
 	background: url('media/arrow-back.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
-	margin: 0 0 0 -84px; /*сдвиг влево*/
+	margin: -150px 0 0 -84px; /*сдвиг влево*/
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -65,7 +80,7 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked ~ #controls label:nth-child(1){
 	background: url('media/arrow-next.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
-	margin: 0 -84px 0 0; /*сдвиг вправо*/
+	margin: -150px -84px 0 0; /*сдвиг вправо*/
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -141,15 +156,16 @@ label, a{ /*при наведении на стрелки или переклю�
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 }
-.menu {
+
+.header {
     width: 100%;
-    min-height: 120px;
+    min-height: 153px;
     padding: 10px 180px;
 
     background-color: black;
 }
 
-.menu-flex {
+.header-flex {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -161,17 +177,18 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 ul {
+    width: 800px;
     position: relative;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-around;
 }
 
 li {
     position: relative;
     color: white;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -183,7 +200,12 @@ a {
 
 .button-search {
     cursor: pointer;
-    font-size: 23px;
+    font-size: 30px;
+}
+
+.button-shop, .button-account {
+    color: white; 
+    font-size: 30px;
 }
 
 
@@ -241,12 +263,14 @@ img {
 }
 
 .hit-container {
-    margin: 100px auto 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     gap: 17px;
-    width: 100%;
-    padding: 0 17px;
-    background-image: url("media/img1.png");
+
+    max-width: 1757px;
+    min-height: 783px;
 }
 
 .arrow-left, .arrow-right {
@@ -259,9 +283,271 @@ img {
 }
 
 .hit-text {
-    max-width: 750px;
-    position: absolute;
-    margin-top: 30px;
-    left: 550px;
+    width: 100%;
 }
 
+.background {
+    background-image: url('media/hit_sales.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.hit-title {
+    margin-top: 40px; 
+    margin-left: 615px;
+}
+
+.hit-description {
+    font-size: 22px; 
+    max-width: 750px; 
+    margin-left: 615px; 
+    margin-top: 5px;
+}
+
+.buy-button {
+    max-width: 386px;
+    height: 101px;
+
+    background-color: black;
+    color: white;
+
+    font-size: 30px;
+    font-family: Simpsonfont;
+
+    border-radius: 50px;
+
+    margin-top: 41px;
+    margin-left: 615px;
+    padding: 25px 46px;
+
+    cursor: pointer;
+}
+
+.brand-sector {
+    margin: 210px 136px 0;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brand-1 {
+    max-width: 702px;
+
+    padding: 46px 34px 34px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    background-color: black;
+
+    border-radius: 20px;
+}
+
+.brand-2 {
+    max-width: 702px;
+    max-height: 747px;
+    padding: 208px 171px;
+
+    background-color: #E2E2E2;
+
+    border-radius: 20px;
+}
+
+.contacts-section {
+    background-color: black;
+    color: white;
+
+    width: 100%;
+    margin-top: 280px;
+
+    padding-bottom: 42px;
+    border-bottom: #E2E2E2 solid;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 106px 300px 0 181px;
+}
+
+.contacts-map {
+    width: 718px;
+}
+
+iframe {
+    width: 100%;
+    height: 551px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact__info {
+    max-width: 230px;
+}
+
+.contact__label {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    margin-bottom: 70px;
+}
+
+.contact__label input {
+    font-size: 14px;
+    line-height: 150%;
+    padding: 20px 0;
+    border: none;
+    border-bottom: solid;
+    width: 257px;
+    background: none;
+    outline: none;
+    color: #fff;
+}
+
+.contact__label::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 257px;
+    height: 1px;
+    background: #2d2d2d;
+}
+
+.contact__button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    width: 200px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 36px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 8px 8px 20px 0px #00000075;
+    transition: all .3s;
+}
+
+.contact__button:hover {
+    background: #d20005;
+    box-shadow: 2px 2px 20px 0px #00000075;
+}
+
+.contact__block {
+    margin-bottom: 45px;
+}
+
+.contact__pretitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+
+.contact__text {
+    font-size: 14px;
+    line-height: 150%;
+    color: #b9b9b9;
+}
+
+.footer {
+    width: 100%;
+    padding: 31px 181px;
+    background-color: black;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 1622px) {
+    .brand-sector {
+        gap: 100px;
+    }
+}
+
+
+@media (max-width: 1500px) {
+    h1 {
+        font-size: 33px;
+    }
+
+    .logo {
+        max-height: 90px;
+    }
+
+    li, .button-search, .button-shop, .button-account {
+        font-size: 25px;
+    }
+
+    .container {
+        gap: 50px;
+        margin: 106px 300px 0;
+    }
+
+    .contacts-map {
+        width: 100%;
+    }
+
+    .hit-title, .hit-description, .buy-button {
+        margin-left: 515px;
+    }
+
+    .hit-description {
+        font-size: 18px; 
+    }
+}
+
+
+@media (max-width: 1025px) {
+    .header {
+        padding: 10px 30px;
+    }
+
+    ul {
+        width: 600px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #desktop:checked ~ #slider{
+        max-width: 542px;
+    }
+
+    .hit-description {
+        font-size: 14px; 
+    }
+
+    .buy-button {
+        max-width: 286px;
+        padding: 25px 23px;
+    }
+
+    .mw-85 {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="menu menu-flex">
+    <div class="header header-flex">
         <a href="">
             <img class="logo" src="media/logo.png">
         </a>
@@ -34,58 +34,55 @@
             <i class="fa fa-search" style="color: white;" aria-hidden="true"></i>
         </label>
         <a href="">
-            <i class='fa-solid fa-cart-shopping' style="color: white; font-size: 23px;"></i>
+            <i class='fa-solid fa-cart-shopping button-shop'></i>
         </a>
         <a href="">
-            <i class='fa fa-user-circle-o' style='color: white; font-size: 23px;'></i>
+            <i class='fa fa-user-circle-o button-account'></i>
         </a>
     </div>
 
     <h1 style="margin-top: 132px; text-align: center;">ВЫБЕРИ СВОЮ ПРОДУКЦИЮ</h1>
-
-        <div class="all">
-            <input checked type="radio" name="respond" id="desktop">
-                <article id="slider">
-                        <input checked type="radio" name="slider" id="switch1">
-                        <input type="radio" name="slider" id="switch2">
-                        <input type="radio" name="slider" id="switch3">
-                        <input type="radio" name="slider" id="switch4">
-                        <input type="radio" name="slider" id="switch5">
-                    <div id="slides">
-                        <div id="overflow">
-                            <div class="image">
-                                <article><img src="media/img1.png"></article>
-                                <article><img src="media/img2.png"></article>
-                                <article><img src="media/img3.png"></article>
-                                <article><img src="media/img4.png"></article>
-                            </div>
-                        </div>
+    
+    <div class="all">
+        <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <input type="radio" name="slider" id="switch5">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="image">
+                        <article><img src="media/img1.png"></article>
+                        <article><img src="media/img2.png"></article>
+                        <article><img src="media/img3.png"></article>
+                        <article><img src="media/img4.png"></article>
                     </div>
-                    <div id="controls">
-                        <label for="switch1"></label>
-                        <label for="switch2"></label>
-                        <label for="switch3"></label>
-                        <label for="switch4"></label>
-                    </div>
-                    <div id="active">
-                        <label for="switch1"></label>
-                        <label for="switch2"></label>
-                        <label for="switch3"></label>
-                        <label for="switch4"></label>
-                    </div>
-                </article>
-        </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+            </div>
+        </article>
+    </div>
     
     <h1 style="margin-top: 132px; text-align: center;">ХИТЫ ПРОДАЖ</h1>
 
     <div class="hit-container">
         <button class="arrow-left">&lsaquo;</button>
-        <!--<div style="max-width: 1757px;">
-            <img style="width: 100%;" src="media/hit_sales.jpg">
-        </div>-->
-        <div class="hit-text">
-            <h2>CREATINE 100% MONOHYDRATE</h2>
-            <p style="font-size: 18px;">
+        <div class="hit-text background">
+            <h1 class="hit-title">CREATINE 100% MONOHYDRATE</h1>
+            <p class="hit-description">
                 Нескончаемый заряд энергии для новых побед
                 <br><br>
                 Креатин — одна из лучших добавок для тех, кто выполняет интенсивные упражнения или занимается интенсивными видами
@@ -97,14 +94,89 @@
                 Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
                 уровень, будь то тренировки в зале или соревнования.
             </p>
+            <button class="buy-button">
+                В КОРЗИНУ
+                <i class='fa-solid fa-cart-shopping' style="color: white; font-size: 30px; margin-left: 25px;"></i>
+            </button>
         </div>
         <button class="arrow-right">&rsaquo;</button>
     </div>
 
-    <div style="margin-top: 100px; width: 100%; height: 100%; background-image: url('../media/img1.png');">
+    <h1 style="margin-top: 132px; text-align: center;">ТОП БРЕНДЫ</h1>
 
+    <div class="brand-sector">
+        <div class="brand-1">
+            <div style="display: flex;">
+                <p style="color: #D7B46A; font-size: 125px; font-weight: 900;">MAXLER</p>
+                <svg version="1.1" baseProfile="full" width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="25" fill="#D7B46A"/>
+                    <circle cx="25" cy="25" r="21" fill="black"/>
+                    <rect width="11" height="4" x="18" y="12" fill="#D7B46A"/>
+                    <rect width="7" height="15" x="22" y="16" fill="#D7B46A"/>
+                    <rect width="15" height="5" x="18" y="30" fill="#D7B46A"/>
+                </svg>
+            </div>
+            <p style="color: white; font-size: 40px; margin-right: 113px;">Качество для нас приоритет. Наше обязательство в отношении вашего здоровья крепко и неизменно, и мы придерживаемся этих ценностей в каждом нашем действии.</p>
+        </div>
+        <div class="brand-2">
+            <img src="media/brand-img.png">
+        </div>
     </div>
 
+    <div class="contacts-section">
+        <h1 style="padding-top: 88px; text-align: center;">КОНТАКТЫ</h1>
+        <div class="container">
+            <div class="contacts-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2017.766495268723!2d34.34215202191109!3d53.24802191584376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412d5844ba823585%3A0xfb2cc1496471eef2!2z0J7QsdGJ0LXQttC40YLQuNC1LCDQkdCz0LjRgtCw!5e0!3m2!1sru!2sru!4v1718886804246!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="contact__form">
+                <label class="contact__label">Имя <br>
+                    <input type="text" name="name" required="" placeholder="Введите ваше имя">
+                </label>
+
+                <label class="contact__label">Телефон <br>
+                    <input type="text" name="form" required="" placeholder="+7 (___) ___ - __ - __">
+                </label>
+
+                <label class="contact__label">Сообщение <br>
+                    <input type="text" name="text" required="" placeholder="Введите текст сообщения">
+                </label>
+                <button class="contact__button" type="submit" form="form">ОТПРАВИТЬ <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span></button>
+            </form>
+            <div class="contact__info">
+                <div class="contact__block">
+                    <p class="contact__pretitle">Адрес</p>
+                    <p class="contact__text">г. Москва, Большой Саввинский переулок, 9с2</p>
+                </div>
+
+                <div class="contact__block">
+                    <p class="contact__pretitle">Почта</p>
+                    <p class="contact__text">info@signal-tv.com</p>
+                </div>
+
+                <div class="contact__block">
+                    <p class="contact__pretitle">Телефон</p>
+                    <p class="contact__text">+7(925) 077-41-57</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer footer-flex">
+        <img class="mw-85" src="media/logo.png">
+        <a href="https://vk.com/">
+            <i class='fab fa-vk fa-2x'></i>
+        </a>
+        <a href="https://www.instagram.com/">
+            <i class='fab fa-instagram fa-2x'></i>
+        </a>
+        <a href="https://www.youtube.com/">
+            <i class='fab fa-youtube fa-2x' style='color: white'></i>
+        </a>
+        <a href="https://web.telegram.org/">
+            <i class='fab fa-telegram-plane fa-2x' style='color: white'></i>
+        </a>
+        <p style="color: #b9b9b9; font-family: Arial, Helvetica, sans-serif; font-size: 25px;">2024 © DrishSportPit</p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
