@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://c.webfontfree.com/c.js?f=HomerSimpson" type="text/javascript"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>DrishSportPit</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="menu menu-flex">
+        <a href="">
+            <img class="logo" src="media/logo.png">
+        </a>
+        <ul>
+            <li>
+                <a href="">
+                    <span>Каталог товаров</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span>Распродажа</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span>Контакты</span>
+                </a>
+            </li>
+        </ul>
+        <label class="button-search">
+            <i class="fa fa-search" style="color: white;" aria-hidden="true"></i>
+        </label>
+        <a href="">
+            <i class='fa-solid fa-cart-shopping' style="color: white; font-size: 23px;"></i>
+        </a>
+        <a href="">
+            <i class='fa fa-user-circle-o' style='color: white; font-size: 23px;'></i>
+        </a>
+    </div>
+
+    <h1 style="margin-top: 132px; text-align: center;">ВЫБЕРИ СВОЮ ПРОДУКЦИЮ</h1>
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="media/img1.png" style="width:100%; box-shadow: 0px 10px 13px 4px rgba(0, 0, 0, 0.55);">
+        </div>
+        <div class="mySlides fade">
+            <img src="media/img2.png" style="width:100%; max-height: 453.94px; box-shadow: 0px 10px 13px 4px rgba(0, 0, 0, 0.55);">
+        </div>
+        <div class="mySlides fade">
+            <img src="media/img3.png" style="width:100%; box-shadow: 0px 10px 13px 4px rgba(0, 0, 0, 0.55);">
+        </div>
+        <div class="mySlides fade">
+            <img src="media/img4.png" style="width:100%; box-shadow: 0px 10px 13px 4px rgba(0, 0, 0, 0.55);">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <a class="prev" onclick="plusSlides(-1)">
+            <svg style="position: absolute; right: 10px;" width="45px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z" fill="#000000"></path> </g></svg>
+        </a>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <a class="next" onclick="plusSlides(1)">
+            <img src="media/arrow-next.png">
+        </a>
+    </div>
+    
+    <h1 style="margin-top: 132px; text-align: center;">ХИТЫ ПРОДАЖ</h1>
+
+    <div class="hit-container">
+        <button class="arrow-left">&lsaquo;</button>
+        <!--<div style="max-width: 1757px;">
+            <img style="width: 100%;" src="media/hit_sales.jpg">
+        </div>-->
+        <div class="hit-text">
+            <h2>CREATINE 100% MONOHYDRATE</h2>
+            <p style="font-size: 18px;">
+                Нескончаемый заряд энергии для новых побед
+                <br><br>
+                Креатин — одна из лучших добавок для тех, кто выполняет интенсивные упражнения или занимается интенсивными видами
+                спорта. Он может придать сил для езды на велосипеде, помочь ускорить спринт и даже улучшить прыжки.
+                <br><br>
+                Креатин не только помогает мышцам вырабатывать больше энергии, но и усиливает сигналы, способствующие образованию
+                новых мышечных волокон в вашем теле.
+                <br><br>
+                Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
+                уровень, будь то тренировки в зале или соревнования.
+            </p>
+        </div>
+        <button class="arrow-right">&rsaquo;</button>
+    </div>
+
+    <div style="margin-top: 100px; width: 100%; height: 100%; background-image: url('../media/img1.png');">
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
