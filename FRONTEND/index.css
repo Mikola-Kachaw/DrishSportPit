@@ -280,14 +280,7 @@ img {
     min-height: 783px;
 }
 
-.arrow-left, .arrow-right {
-    color: black;
-    font-size: 100px;
-    font-weight: 600;
-    background-color: white;
-    border: none;
-    cursor: pointer;
-}
+
 
 .hit-text {
     width: 100%;
