@@ -9,9 +9,16 @@
     src: url('fonts/Simpsonfont.ttf');
 }
 
-.mw-85 {
-    max-width: 85px;
-}
+@font-face {
+    font-family: Arial Bold;
+    src: url('fonts/ARIALBD.TTF');
+    }
+
+@font-face {
+    font-family: AriBlk;
+    src: url('fonts/ARIBLK.TTF');
+    }
+
 
 body {
     font-family: Simpsonfont;
@@ -21,6 +28,8 @@ body {
 h1 {
     font-size: 40px;
 }
+
+
 
 .all {
     margin-top: 98px;
@@ -67,7 +76,7 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked ~ #controls label:nth-child(3){
 	background: url('media/arrow-back.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
-	margin: -150px 0 0 -84px; /*сдвиг влево*/
+	margin: 0 0 0 -84px; /*сдвиг влево*/
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -80,7 +89,7 @@ article img{ /*размер изображений слайдера*/
 #switch4:checked ~ #controls label:nth-child(1){
 	background: url('media/arrow-next.png') no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
-	margin: -150px -84px 0 0; /*сдвиг вправо*/
+	margin: 0 -84px 0 0; /*сдвиг вправо*/
 	display: block;
 	height: 68px;
 	width: 68px;
@@ -93,6 +102,7 @@ label, a{ /*при наведении на стрелки или переклю�
 .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
 	display: none;
 }
+
 
 /*позиция изображения при активации переключателя*/
 #switch1:checked ~ #slides .image{
@@ -162,7 +172,7 @@ label, a{ /*при наведении на стрелки или переклю�
     min-height: 153px;
     padding: 10px 180px;
 
-    background-color: black;
+    background-color: #191919;
 }
 
 .header-flex {
@@ -198,17 +208,14 @@ a {
     color: white;
 }
 
-.button-search {
-    cursor: pointer;
-    font-size: 30px;
-}
-
-.button-shop, .button-account {
-    color: white; 
-    font-size: 30px;
-}
-
-
+/*.badge{
+    font-family: Arial;
+    font-size: 13px;
+    justify-content: center;
+    padding: 2px 7px;
+    border-radius: 100%;
+    background: red;
+    color: white;*/
 
 .slideshow-container {
     margin: 100px auto 0;
@@ -284,44 +291,47 @@ img {
 
 .hit-text {
     width: 100%;
+    display: flex;
 }
 
 .background {
-    background-image: url('media/hit_sales.jpg');
+    background-image: url('media/hit_sale_back.png');
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+    padding: 50px;
+
 }
 
-.hit-title {
-    margin-top: 40px; 
-    margin-left: 615px;
+.background img{
+    height:100%;
+    width: 100%;
 }
 
 .hit-description {
-    font-size: 22px; 
-    max-width: 750px; 
-    margin-left: 615px; 
-    margin-top: 5px;
+    font-family: Arial;
+    font-size: 25px; 
+    width: 100%; 
+    margin-left: 100px; 
 }
 
 .buy-button {
-    max-width: 386px;
-    height: 101px;
-
     background-color: black;
     color: white;
-
     font-size: 30px;
-    font-family: Simpsonfont;
-
+    font-family: Arial;
     border-radius: 50px;
-
+    box-shadow: 2px 2px 20px 0px #00000075;
     margin-top: 41px;
-    margin-left: 615px;
     padding: 25px 46px;
-
+    transition: all .3s;
     cursor: pointer;
+    
+}
+.buy-button:hover {
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 2px 2px 20px 0px #00000075;
 }
 
 .brand-sector {
@@ -337,7 +347,8 @@ img {
     max-width: 702px;
 
     padding: 46px 34px 34px;
-    font-family: 'Arial Black', Gadget, sans-serif;
+    font-family: AriBlk;
+    font-style: bold ;
     background-color: black;
 
     border-radius: 20px;
@@ -354,7 +365,7 @@ img {
 }
 
 .contacts-section {
-    background-color: black;
+    background-color: #191919;
     color: white;
 
     width: 100%;
@@ -441,7 +452,8 @@ iframe {
 }
 
 .contact__button:hover {
-    background: #d20005;
+    background: #000000;
+    color: #fff;
     box-shadow: 2px 2px 20px 0px #00000075;
 }
 
@@ -458,15 +470,16 @@ iframe {
 }
 
 .contact__text {
+    font-family: Arial;
     font-size: 14px;
     line-height: 150%;
-    color: #b9b9b9;
+    color: #626262
 }
 
 .footer {
     width: 100%;
     padding: 31px 181px;
-    background-color: black;
+    background-color: #191919;
 }
 
 .footer-flex {
@@ -474,7 +487,9 @@ iframe {
     align-items: center;
     justify-content: space-between;
 }
-
+.footer-logo{
+    max-width: 60px;
+}
 
 
 
@@ -541,10 +556,6 @@ iframe {
     .buy-button {
         max-width: 286px;
         padding: 25px 23px;
-    }
-
-    .mw-85 {
-        max-width: 60px;
     }
 }
 
