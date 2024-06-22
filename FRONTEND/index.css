@@ -180,6 +180,7 @@ label, a{ /*при наведении на стрелки или переклю�
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    row-gap: 20px;
 }
 
 .logo {
@@ -271,41 +272,37 @@ img {
 
 .hit-container {
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    gap: 17px;
-
-    max-width: 1757px;
-    min-height: 783px;
-}
-
-
-
-.hit-text {
     width: 100%;
-    display: flex;
 }
 
 .background {
     background-image: url('media/hit_sale_back.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     overflow: hidden;
     padding: 50px;
+}
 
+.hit-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+
+    padding: 50px;
 }
 
 .background img{
-    height:100%;
-    width: 100%;
+    max-width: 100%;
 }
 
 .hit-description {
     font-family: Arial;
     font-size: 25px; 
-    width: 100%; 
-    margin-left: 100px; 
+    max-width: 60%; 
+}
+
+.hit-description b {
+    font-size: 45px
 }
 
 .buy-button {
@@ -328,12 +325,12 @@ img {
 }
 
 .brand-sector {
-    margin: 210px 136px 0;
+    margin-top: 210px;
 
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    width: 100%;
 }
 
 .brand-1 {
@@ -341,20 +338,50 @@ img {
 
     padding: 46px 34px 34px;
     font-family: AriBlk;
-    font-style: bold ;
-    background-color: black;
-
+    font-style: bold;
+    background-color: #E2E2E2;
     border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.brand-1:hover{
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.brand-1-text {
+    color: white; 
+    font-size: 40px; 
+    margin-right: 113px;
+    font-style: bold;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.brand-1-text:hover{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.maxler{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .brand-2 {
     max-width: 702px;
-    max-height: 747px;
     padding: 208px 171px;
 
     background-color: #E2E2E2;
 
     border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.brand-2:hover{
+    background-color: black;
+    transition: all 0.5s ease-in-out;
 }
 
 .contacts-section {
@@ -364,7 +391,7 @@ img {
     width: 100%;
     margin-top: 280px;
 
-    padding-bottom: 42px;
+    padding-bottom: 60px;
     border-bottom: #E2E2E2 solid;
 }
 
@@ -373,7 +400,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    margin: 106px 300px 0 181px;
+    margin: 106px 181px 0;
 }
 
 .contacts-map {
@@ -477,9 +504,12 @@ iframe {
 
 .footer-flex {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
     align-items: center;
     justify-content: space-between;
 }
+
 .footer-logo{
     max-width: 60px;
 }
@@ -508,22 +538,19 @@ iframe {
 
     .container {
         gap: 50px;
-        margin: 106px 300px 0;
+        margin: 106px 40px;
     }
 
     .contacts-map {
         width: 100%;
     }
-
-    .hit-title, .hit-description, .buy-button {
-        margin-left: 515px;
-    }
-
-    .hit-description {
-        font-size: 18px; 
-    }
 }
 
+@media (max-width: 1500px) {
+    .hit-description {
+        max-width: 100%;
+    }
+}
 
 @media (max-width: 1025px) {
     .header {
@@ -542,16 +569,37 @@ iframe {
         max-width: 542px;
     }
 
-    .hit-description {
-        font-size: 14px; 
-    }
-
     .buy-button {
         max-width: 286px;
         padding: 25px 23px;
     }
 }
 
+
+
 @media (max-width: 480px) {
-    
+    .brand-1, .brand-2, .brand-2 img {
+        width: 100%;
+    }
+
+    .brand-1-text {
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .brand-2 {
+        padding: 104px 82px;
+    }
+
+    .hit-description {
+        font-size: 16px;
+    }
+
+    .hit-description b {
+        font-size: 30px;
+    }
+
+    .footer {
+        padding: 31px 20px;
+    }
 }
