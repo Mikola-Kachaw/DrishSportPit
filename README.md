@@ -6,3 +6,8 @@
 Гнилицкий Константин Сергеевич -	Аналитик
 Святохо Дмитрий Сергеевич -	Frontend-разработчик
 Савинкин Дмитрий Романович -	Специалист по тестированию
+
+
+
+
+https://www.figma.com/design/ZumUZ8boM4ANNOZOvuoQKp/DESIGN?node-id=268-63&t=5VaaPPterkyLFRnM-1
