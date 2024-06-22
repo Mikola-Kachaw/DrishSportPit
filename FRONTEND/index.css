@@ -95,10 +95,16 @@ article img{ /*размер изображений слайдера*/
 	width: 68px;
 }
 
-label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
+label, a, image{ /*при наведении на стрелки или переключатели - курсор изменится*/
 	cursor: pointer;
 }
 
+/*k1{
+    background: url('media/img1.png');
+}
+.k1:hover{
+    background: url('media/img1_h.png');
+}*/
 .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
 	display: none;
 }
@@ -272,15 +278,27 @@ img {
 
 .hit-container {
     margin-top: 100px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 17px;
+    max-width: 1757px;
+    min-height: 783px;
 }
-
+.arrow-left, .arrow-right {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
 .background {
     background-image: url('media/hit_sale_back.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     padding: 50px;
+    height: 738px;
 }
 
 .hit-flex {
@@ -290,15 +308,15 @@ img {
 
     padding: 50px;
 }
-
-.background img{
-    max-width: 100%;
+.hit-flex img{
+    height: 650px;
 }
 
 .hit-description {
     font-family: Arial;
     font-size: 25px; 
     max-width: 60%; 
+    text-transform: uppercase;
 }
 
 .hit-description b {
@@ -382,6 +400,20 @@ img {
 .brand-2:hover{
     background-color: black;
     transition: all 0.5s ease-in-out;
+}
+.accordion-info{
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0 150px 150px 150px;
+}
+.product-table {
+    width: 100%;
+    border-collapse:inherit;
+    text-align: center;
+
+}
+blockquote, table {
+    margin: 0 0 24px;
 }
 
 .contacts-section {
