@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.mt-500 {
+    margin-top: 500px;
+}
+
 @font-face {
     font-family: Simpsonfont;
     src: url('fonts/Simpsonfont.ttf');
@@ -547,6 +551,154 @@ iframe {
 }
 
 
+.container-purchases {
+    font-family: Arial;
+    width: 100%;
+    padding: 0 68px;
+    margin-top: 110px;
+
+    display: flex;
+    gap: 30px;
+}
+
+.list-buy-items {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buy-item, .buy-menu {
+    background-color: #d9d9d9;
+}
+
+.buy-item {
+    width: 100%;
+
+    padding: 10px 10px 45px 79px;
+
+    border: #000000 solid 3px;
+
+    box-shadow: 0px 4px 14px 9px rgba(34, 60, 80, 0.2);
+}
+
+.buy-item img {
+   max-height: 213px;
+}
+
+.buy-menu {
+    font-family: Arial;
+    width: 30%;
+    height: 834px;
+
+    padding: 36px;
+
+    border-radius: 10px;
+}
+
+.closeModal {
+    position: relative;
+	width: 50px;
+	height: 50px;
+	opacity: 0.2;
+	cursor: pointer;
+    transition: opacity ease 0.5s;
+    border: none;
+    background: none;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.closeModal::before,
+.closeModal::after {
+	content: '';
+    position: absolute;
+	display: block;
+	width: 50px;
+	height: 5px;
+	background: #000;
+}
+
+.closeModal::before {
+	transform: rotate(60deg);
+}
+
+.closeModal::after {
+	transform: rotate(-60deg);
+}
+
+.count-container {
+    width: 215px;
+    padding: 5px 20px;
+    background-color: white;
+    border: black solid 3px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+button[class*=btn] {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition:background-color ease 0.2s;
+
+    &:hover {
+		background-color: #a9a9a9;
+	}
+
+    &:active {
+        background-color: #656565;
+    }
+}
+
+.count-container input {
+    border: none;
+    text-align: center;
+    width: 70px;
+    font-size: 35px;
+    color: #43484D;
+    font-weight: 500;
+}
+
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.buy-button-menu {
+    background-color: black; 
+    border-radius: 50px; 
+    border: none;
+
+    color: white;
+    font-size: 40px;
+
+    width: 100%;
+    padding: 20px 0;
+
+    margin-top: 41px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    &:active {
+        transform: translateY(2px);
+        background-color: #43484D;
+    }
+}
 
 @media (max-width: 1622px) {
     .brand-sector {
