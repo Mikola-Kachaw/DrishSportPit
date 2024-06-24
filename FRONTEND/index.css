@@ -34,7 +34,7 @@ h1 {
 }
 
 
-
+/*Карусель*/
 .all {
     margin-top: 98px;
 }
@@ -177,6 +177,7 @@ label, a, image{ /*при наведении на стрелки или пере
 	transition: opacity 0.2s ease-out;
 }
 
+/*Хидер*/
 .header {
     width: 100%;
     min-height: 153px;
@@ -279,7 +280,7 @@ img {
 .active, .dot:hover {
     background-color: #717171;
 }
-
+/*Хит продаж*/
 .hit-container {
     margin-top: 100px;
     margin-left: auto;
@@ -304,7 +305,7 @@ img {
     padding: 50px;
     height: 738px;
 }
-
+/*Описание*/
 .hit-flex {
     display: flex;
     flex-wrap: wrap;
@@ -346,6 +347,7 @@ img {
     box-shadow: 2px 2px 20px 0px #00000075;
 }
 
+/*Топ бренды*/
 .brand-sector {
     margin-top: 210px;
 
@@ -405,6 +407,7 @@ img {
     background-color: black;
     transition: all 0.5s ease-in-out;
 }
+/*Состав*/
 .accordion-info{
     font-family: Arial;
     font-size: 20px;
@@ -420,6 +423,7 @@ blockquote, table {
     margin: 0 0 24px;
 }
 
+/*Контакты*/
 .contacts-section {
     background-color: #191919;
     color: white;
@@ -532,6 +536,7 @@ iframe {
     color: #626262
 }
 
+/*Футер*/
 .footer {
     width: 100%;
     padding: 31px 181px;
@@ -550,13 +555,13 @@ iframe {
     max-width: 60px;
 }
 
-
+/*Страница Корзины*/
 .container-purchases {
     font-family: Arial;
     width: 100%;
     padding: 0 68px;
     margin-top: 110px;
-
+    
     display: flex;
     gap: 30px;
 }
@@ -577,9 +582,8 @@ iframe {
 
     padding: 10px 10px 45px 79px;
 
-    border: #000000 solid 3px;
-
-    box-shadow: 0px 4px 14px 9px rgba(34, 60, 80, 0.2);
+    border-radius: 30px;
+    border: none;
 }
 
 .buy-item img {
@@ -605,11 +609,11 @@ iframe {
     transition: opacity ease 0.5s;
     border: none;
     background: none;
-
-	&:hover {
-		opacity: 1;
-	}
 }
+.closeModal:hover {
+	opacity: 1;
+}
+
 
 .closeModal::before,
 .closeModal::after {
@@ -700,6 +704,17 @@ input:focus {
     }
 }
 
+.now-button{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 110px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+/*Адаптив*/
 @media (max-width: 1622px) {
     .brand-sector {
         gap: 100px;
