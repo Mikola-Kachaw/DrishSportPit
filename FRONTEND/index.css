@@ -283,13 +283,12 @@ img {
 /*Хит продаж*/
 .hit-container {
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     gap: 17px;
-    max-width: 1757px;
+    width: 100%;
     min-height: 783px;
 }
+
 .arrow-left, .arrow-right {
     color: #fff;
     font-size: 100px;
@@ -303,7 +302,6 @@ img {
     background-size: cover;
     overflow: hidden;
     padding: 50px;
-    height: 738px;
 }
 /*Описание*/
 .hit-flex {
@@ -714,6 +712,83 @@ input:focus {
     border: none;
     cursor: pointer;
 }
+
+.container-account {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 56px;
+
+    margin-top: 117px;
+
+    width: 100%;
+    padding: 0 100px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 65%;
+
+    padding: 50px 70px;
+}
+
+.avatar-img {
+    width: 220px;
+    height: 100%;
+
+    margin-right: 67px;
+}
+
+.avatar-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.payment {
+    width: 35%;
+
+    padding: 52px 36px;
+}
+
+.purchares {
+    width: 100%;
+    padding: 45px;
+}
+
+.profile, .payment, .purchares {
+    background-color: #E2E2E2;
+}
+
+.purchares-item, .purchares-item-2 {
+    width: 534px;
+    border: white solid 10px;
+    border-radius: 20px;
+
+    padding: 20px 30px;
+}
+
+.purchares-item-2 {
+    display: none;
+}
+
+.purchares-img {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+
+    padding: 30px 60px;
+}
+
+.purchares-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
 /*Адаптив*/
 @media (max-width: 1622px) {
     .brand-sector {
