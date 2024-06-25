@@ -754,13 +754,14 @@ input:focus {
     padding: 52px 36px;
 }
 
-.purchares {
+.purchares, .catalog {
     width: 100%;
     padding: 45px;
 }
 
 .profile, .payment, .purchares {
     background-color: #E2E2E2;
+    border-radius: 20px;
 }
 
 .purchares-item, .purchares-item-2 {
@@ -771,11 +772,8 @@ input:focus {
     padding: 20px 30px;
 }
 
-.purchares-item-2 {
-    display: none;
-}
 
-.purchares-img {
+.purchares-img, .catalog-img {
     width: 100%;
     background-color: white;
     border-radius: 20px;
@@ -783,11 +781,43 @@ input:focus {
     padding: 30px 60px;
 }
 
-.purchares-img img {
+.purchares-img img, .catalog-img img {
     width: 100%;
     height: 100%;
 }
 
+.catalog-item, .catalog-item-2 {
+    width: 534px;
+    border: white solid 10px;
+    border-radius: 20px;
+
+    padding: 20px 30px;
+    background-color: #d9d9d9;
+    font-family: Arial;
+}
+
+.not-for-sale{
+    width: 534px;
+    border-radius: 20px;
+    opacity: 0.3;
+    
+}
+
+.sale{
+    width: 150px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50px;
+    font-family: Arial Bold;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin-top: -400px;
+    margin-left: -105px;
+    position: absolute;
+    padding: 5px;
+    
+}
 
 /*Адаптив*/
 @media (max-width: 1622px) {
