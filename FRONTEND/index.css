@@ -571,6 +571,10 @@ iframe {
     gap: 50px;
 }
 
+.pad-0-70 {
+    padding: 0 70px;
+}
+
 .buy-item, .buy-menu {
     background-color: #d9d9d9;
 }
@@ -713,6 +717,7 @@ input:focus {
     cursor: pointer;
 }
 
+/*Страница личного кабинета*/
 .container-account {
     font-family: Arial;
     display: flex;
@@ -786,6 +791,7 @@ input:focus {
     height: 100%;
 }
 
+/*Каталог товаров*/
 .catalog-item, .catalog-item-2 {
     width: 534px;
     border: white solid 10px;
@@ -848,11 +854,19 @@ input:focus {
     .contacts-map {
         width: 100%;
     }
-}
 
-@media (max-width: 1500px) {
     .hit-description {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 1513px) {
+    .container-purchases {
+        flex-wrap: wrap;
+    }
+
+    .list-buy-items, .buy-menu {
+        width: 100%;
     }
 }
 
@@ -879,6 +893,22 @@ input:focus {
     }
 }
 
+@media (max-width: 990px) {
+    .f-wrap {
+        flex-wrap: wrap;
+    }
+
+    .pad-0-70 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 710px) {
+    .f-wrap-2 {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
 
 
 @media (max-width: 480px) {
