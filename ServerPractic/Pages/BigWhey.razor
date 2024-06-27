@@ -1,0 +1,80 @@
+﻿@page "/bigwhey"
+@inject NavigationManager NavigationManagers
+
+<div class="hit-container">
+    <div class="hit-flex">
+        <img src="media/banka2.png">
+        <div class="hit-description">
+            <b>Протеин BIG WHEY,<br>вкус Мороженое</b>
+            <br>
+            <i>ДЛЯ НАБОРА МЫШЕЧНОЙ МАССЫ И ПОХУДЕНИЯ </i>
+            <br><br>
+            Сывороточный протеин+изолят BIG WHEY создан для того, чтобы вы смогли достичь поставленной цели - будь то набор сухой мышечной массы, похудение, или увеличение количества качественного белка в повседневном рационе.
+            <br><br>
+            В протеине BIG WHEY повышенное содержание BCAA - трех незаменимых аминокислот, крайне важных в жизни любого человека. Создатели продукта BIG приложили максимальные усилия, благодаря которым вы можете наслаждаться удивительным вкусом любимого протеина даже при разведении водой.
+            <br><br>
+            Протеин BIG WHEY - это минимальное количество жиров и углеводов, и максимальное - белка, в каждой порции. Благодаря технологии INSTANT протеин BIG WHEY - это лучшая растворимость в сравнении с обычными протеинами.
+            <br>
+            <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items:end;">
+                <b style="font-family: AriBLK; font-size: 90px;">1800&#8381;</b>
+                <button class="buy-button" @onclick="NavigToProd">
+                    К ТОВАРАМ
+                    <svg width="31px" height="31px" viewBox="-1 -1 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier"> <path d="M4.5 5H18.2768C19.0446 5 19.526 5.82948 19.1451 6.49614L16.5758 10.9923C16.2198 11.6154 15.5571 12 14.8394 12H8M8 12L6.45625 14.47C6.03997 15.136 6.51881 16 7.30425 16H18M8 12L4.05279 4.10557C3.714 3.428 3.02148 3 2.26393 3H2M8 20C8 20.5523 7.55228 21 7 21C6.44772 21 6 20.5523 6 20C6 19.4477 6.44772 19 7 19C7.55228 19 8 19.4477 8 20ZM18 20C18 20.5523 17.5523 21 17 21C16.4477 21 16 20.5523 16 20C16 19.4477 16.4477 19 17 19C17.5523 19 18 19.4477 18 20Z" stroke="CurrentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="accordion-info">
+    <h1 style="font-size: 40px; font-family: Simpsonfont;  text-align: center;">СОСТАВ</h1><br><br>
+    <p>
+        Размер порции: 3 г<br>
+        Порций в упаковке: 28
+    </p><br><br>
+    <table class="product-table">
+        <tbody>
+            <tr>
+                <th><strong>Количество</strong></th>
+                <th><strong>На 100 г</strong></th>
+                <!--<th><strong>На порцию (3 г)</strong></th>
+                <th><strong>На порцию (6 г)</strong></th>-->
+            </tr>
+            <tr>
+                <td style="text-align: left;">Энергетическая ценность</td>
+                <td>373 ккал (&lt;0,1 ккал)</td>
+                <!--<td>&lt;0,1 кДж (&lt;0,1 ккал)</td>
+                <td>&lt;0,1 кДж (&lt;0,1 ккал)</td>-->
+            </tr>
+            <tr>
+                <td style="text-align: left;">Жиры</td>
+                <td>5 г</td>
+                <!--<td>&lt;0,1 г</td>
+                <td>&lt;0,1 г</td>-->
+            </tr>
+            <tr>
+                <td style="text-align: left;">Углеводы</td>
+                <td>9 г</td>
+                <!--<td>&lt;0,1 г</td>-->
+            </tr>
+            <tr>
+                <td style="text-align: left;">Белки</td>
+                <td>73 г</td>
+                <!--<td>&lt;0,1 г</td>
+                <td>&lt;0,1 г</td>-->
+            </tr>
+        </tbody>
+    </table>
+    <p><b>Состав:</b> Концентрат сывороточного белка; Ароматизатор; Лецитин; Сукралоза</p>
+</div>
+
+@code {
+    private void NavigToProd()
+    {
+        NavigationManagers.NavigateTo("/product");
+    }
+}

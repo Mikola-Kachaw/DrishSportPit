@@ -1,0 +1,29 @@
+﻿.buy-button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.container{
+    text-align:center;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+
+label {
+    font-family: Arial Bold;
+}

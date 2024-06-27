@@ -1,0 +1,441 @@
+﻿body {
+    font-family: Simpsonfont;
+    color: black;
+}
+
+#slider { /*положение слайдера*/
+    position: relative;
+    text-align: center;
+    top: 10px;
+}
+
+#slider { /*центровка слайдера*/
+    margin: 0 auto;
+}
+
+#slides article { /*все изображения справа друг от друга*/
+    width: 20%;
+    float: left;
+}
+
+#slides .image { /*устанавливает общий размер блока с изображениями*/
+    width: 500%;
+    line-height: 0;
+}
+
+#overflow { /*сркывает все, что находится за пределами этого блока*/
+    width: 100%;
+    overflow: hidden;
+}
+
+article img { /*размер изображений слайдера*/
+    width: 100%;
+}
+
+#desktop:checked ~ #slider { /*размер всего слайдера*/
+    max-width: 942px; /*максимальнная длинна*/
+}
+
+/*настройка переключения и положения для левой стрелки*/
+/*если свич1-5 активны, то идет обращение к лейблу из блока с id контролс*/
+#switch1:checked ~ #controls label:nth-child(4),
+#switch2:checked ~ #controls label:nth-child(1),
+#switch3:checked ~ #controls label:nth-child(2),
+#switch4:checked ~ #controls label:nth-child(3) {
+    background: url('media/arrow-back.png') no-repeat; /*заливка фона картинкой без повторений*/
+    float: left;
+    margin: 0 0 0 -84px; /*сдвиг влево*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+/*настройка переключения и положения для правой стрелки*/
+#switch1:checked ~ #controls label:nth-child(2),
+#switch2:checked ~ #controls label:nth-child(3),
+#switch3:checked ~ #controls label:nth-child(4),
+#switch4:checked ~ #controls label:nth-child(1) {
+    background: url('media/arrow-next.png') no-repeat; /*заливка фона картинкой без повторений*/
+    float: right;
+    margin: 0 -84px 0 0; /*сдвиг вправо*/
+    display: block;
+    height: 68px;
+    width: 68px;
+}
+
+label, a { /*при наведении на стрелки или переключатели - курсор изменится*/
+    cursor: pointer;
+}
+
+.all input { /*скрывает стандартные инпуты (чекбоксы) на странице*/
+    display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image {
+    margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image {
+    margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image {
+    margin-left: -200%;
+}
+
+#switch4:checked ~ #slides .image {
+    margin-left: -300%;
+}
+
+
+#controls { /*положение блока всех управляющих элементов*/
+    margin: -25% 0 0 0;
+    width: 100%;
+    height: 50px;
+}
+
+#active label { /*стиль отдельного переключателя*/
+    border-radius: 10px; /*скругление углов*/
+    display: inline-block; /*расположение в строку*/
+    width: 15px;
+    height: 15px;
+    background: #bbb;
+}
+
+#active { /*расположение блока с переключателями*/
+    margin: 23% 0 0;
+    text-align: center;
+}
+
+    #active label:hover { /*поведение чекбокса при наведении*/
+        background: #000000;
+        border-color: #777 !important; /*выполнение в любом случае*/
+    }
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3),
+#switch4:checked ~ #active label:nth-child(4) {
+    background: #000000;
+    border-color: #000000 !important;
+}
+
+#slides .image { /*анимация пролистывания изображений*/
+    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+#controls label:hover { /*прозрачность стрелок при наведении*/
+    opacity: 0.6;
+}
+
+#controls label { /*прозрачность стрелок при отводе курсора*/
+    transition: opacity 0.2s ease-out;
+}
+
+.slideshow-container {
+    margin: 100px auto 0;
+    max-width: 600px;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+.hit-container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 17px;
+    max-width: 1757px;
+    min-height: 783px;
+}
+
+.arrow-left, .arrow-right {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+}
+
+.background {
+    background-image: url('media/hit_sale_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 50px;
+    height: 738px;
+}
+/*Описание*/
+.hit-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+
+    .hit-flex img {
+        height: 650px;
+    }
+
+.hit-description {
+    font-family: Arial;
+    font-size: 25px;
+    max-width: 60%;
+    text-transform: uppercase;
+}
+
+    .hit-description b {
+        font-size: 45px
+    }
+
+.buy-button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.brand-sector {
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.brand-1 {
+    max-width: 702px;
+    padding: 46px 34px 34px;
+    font-family: AriBlk;
+    font-style: bold;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+    .brand-1:hover {
+        background-color: black;
+        transition: all 0.5s ease-in-out;
+    }
+
+.brand-1-text {
+    color: white;
+    font-size: 40px;
+    margin-right: 113px;
+    margin-top: 12px;
+    font-style: Arial;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+    .brand-1-text:hover {
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+
+.maxler {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand-2 {
+    max-width: 702px;
+    padding: 208px 171px;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+    .brand-2:hover {
+        background-color: black;
+        transition: all 0.5s ease-in-out;
+    }
+
+.accordion-info {
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0 150px 150px 150px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: inherit;
+    text-align: center;
+}
+
+blockquote, table {
+    margin: 0 0 24px;
+}
+
+
+
+.contacts-section {
+    background-color: #191919;
+    color: white;
+    margin-top: 280px;
+    padding-bottom: 60px;
+    border-bottom: #E2E2E2 solid;
+    width: 100%;
+}
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 106px 181px 0;
+    padding:0;
+}
+
+.contacts-map {
+    width: 718px;
+}
+
+iframe {
+    width: 100%;
+    height: 551px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact__info {
+    max-width: 230px;
+}
+
+.contact__label {
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    margin-bottom: 70px;
+}
+
+    .contact__label input {
+        font-size: 14px;
+        line-height: 150%;
+        padding: 20px 0;
+        border: none;
+        border-bottom: solid;
+        width: 257px;
+        background: none;
+        outline: none;
+        color: #fff;
+    }
+
+    .contact__label::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 257px;
+        height: 1px;
+        background: #2d2d2d;
+    }
+
+.contact__button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    width: 200px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 36px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 8px 8px 20px 0px #00000075;
+    transition: all .3s;
+}
+
+    .contact__button:hover {
+        background: #000000;
+        color: #fff;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.contact__block {
+    margin-bottom: 45px;
+}
+
+.contact__pretitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+
+.contact__text {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 150%;
+    color: #626262
+}
+

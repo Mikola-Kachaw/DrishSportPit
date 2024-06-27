@@ -1,0 +1,88 @@
+﻿@page "/pay"
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components.Forms
+
+@code {
+    private PaymentModel paymentModel = new PaymentModel();
+    private bool isProcessing = false;
+    private string message;
+
+    private async Task ProcessPayment()
+    {
+        isProcessing = true;
+        message = null;
+
+        try
+        {
+            
+            await Task.Delay(2000); 
+            message = "Платеж успешно обработан!";
+            
+        }
+        catch (Exception ex)
+        {
+            message = $"Произошла ошибка: {ex.Message}";
+        }
+        finally
+        {
+            isProcessing = false;
+        }
+    }
+}
+
+<div class="payment-dialog">
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-6 offset-md-3" style="margin-top:40px ;margin-bottom=40px; ">Оплата заказа</h1>
+    </div>
+        </div>
+    <EditForm Model="@paymentModel" OnValidSubmit="@ProcessPayment">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+            <div class="form-group">
+            <label for="cardNumber">Номер карты</label>
+            <InputText id="cardNumber" class="form-control" @bind-Value="paymentModel.CardNumber" />
+            <ValidationMessage For="@(() => paymentModel.CardNumber)" />
+        </div>
+
+        <div class="form-group">
+            <label for="expiryDate">Дата окончания срока действия</label>
+            <InputText id="expiryDate" class="form-control" @bind-Value="paymentModel.ExpiryDate" />
+            <ValidationMessage For="@(() => paymentModel.ExpiryDate)" />
+        </div>
+
+        <div class="form-group">
+            <label for="cvv">CVV</label>
+            <InputText id="cvv" class="form-control" @bind-Value="paymentModel.Cvv" />
+            <ValidationMessage For="@(() => paymentModel.Cvv)" />
+        </div>
+
+            <button style="margin-top: 20px; margin-bottom:40px; padding: 17px 30px; font-size: 26px;" class="buy-button" disabled="@isProcessing">Оплатить</button>
+        </div>
+        </div>
+        </div>
+    </EditForm>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <div class="alert alert-info">@message</div>
+    }
+</div>
+
+@code {
+    public class PaymentModel
+    {
+        [Required(ErrorMessage = "Номер карты обязателен")]
+        public string CardNumber { get; set; } = null;
+
+        [Required(ErrorMessage = "Дата окончания срока действия обязательна")]
+        public string ExpiryDate { get; set; } = null;
+
+        [Required(ErrorMessage = "CVV обязателен")]
+        public string Cvv { get; set; } = null;
+    }
+}

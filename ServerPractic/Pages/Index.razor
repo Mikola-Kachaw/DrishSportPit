@@ -1,0 +1,161 @@
+﻿@page "/"
+@inject IJSRuntime js
+@inject NavigationManager NavigationManager
+
+<PageTitle>DrishSportPit</PageTitle>
+
+
+
+<h1 style="margin-top: 132px; text-align: center;">ВЫБЕРИ СВОЮ ПРОДУКЦИЮ</h1>
+
+<div class="all">
+    <input checked type="radio" name="respond" id="desktop">
+    <article id="slider">
+        <input checked type="radio" name="slider" id="switch1">
+        <input type="radio" name="slider" id="switch2">
+        <input type="radio" name="slider" id="switch3">
+        <input type="radio" name="slider" id="switch4">
+        <input type="radio" name="slider" id="switch5">
+        <div id="slides">
+            <div id="overflow">
+                <div class="image">
+                    @foreach (var url in PhotoUrls)
+                    {
+                        <article><img src="@url"></article>
+                    }
+                </div>
+            </div>
+        </div>
+        <div id="controls">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+            <label for="switch4"></label>
+        </div>
+        <div id="active">
+            <label for="switch1"></label>
+            <label for="switch2"></label>
+            <label for="switch3"></label>
+            <label for="switch4"></label>
+        </div>
+    </article>
+</div>
+
+<h1 style="margin-top: 132px; text-align: center;">ХИТЫ ПРОДАЖ</h1>
+
+
+<div class="hit-container">
+    <button class="arrow-left">‹</button>
+    <div class="hit-flex background">
+        <img src="media/banka.png">
+        <div class="hit-description">
+            <b>CREATINE 100% MONOHYDRATE</b>
+            <br>
+            <i>НЕСКОНЧАЕМЫЙ ЗАРЯД ЭНЕРГИИ ДЛЯ НОВЫХ ПОБЕД</i>
+            <br><br>
+            Креатин — одна из лучших добавок для тех, кто выполняет интенсивные упражнения или занимается интенсивными видами
+            спорта. Он может придать сил для езды на велосипеде, помочь ускорить спринт и даже улучшить прыжки.
+            <br><br>
+            Креатин не только помогает мышцам вырабатывать больше энергии, но и усиливает сигналы, способствующие образованию
+            новых мышечных волокон в вашем теле.
+            <br><br>
+            Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
+            уровень, будь то тренировки в зале или соревнования.
+            <br>
+            <a >
+                <button class="buy-button" @onclick="NavigateToPage2">
+                    ПЕРЕЙТИ <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
+                </button>
+            </a>
+        </div>
+    </div>
+    <button class="arrow-right">›</button>
+</div>
+
+<h1 style="margin-top: 132px; text-align: center;">ТОП БРЕНДЫ</h1>
+
+<div class="brand-sector">
+    <div class="brand-1">
+        <div class="maxler">
+            <svg width="765" height="130" viewBox="0 0 136 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4992 26.5442H15.9199L19.0117 15.0184L19.5326 26.5442H27.419L25.3022 7.61937H16.2204L13.7229 17.6361L11.2254 7.61937H2.11685L0 26.5442H7.90651L8.42069 15.0184L11.4992 26.5442ZM40.0334 18.8982C39.5259 16.808 38.9916 14.6043 38.4107 12.0067C37.823 14.6043 37.2955 16.808 36.7813 18.8982H40.0334ZM62.7379 26.5442H70.5442L64.828 16.8414L70.5843 7.61937H62.0568L59.3856 13.0952L56.6745 7.61937H48.1269L53.8831 16.8414L48.9082 25.2821L43.2988 7.61937H33.5492L27.5392 26.5442H35.025C35.2588 25.4758 35.4858 24.4608 35.6928 23.4658H41.1419C41.3689 24.4608 41.6027 25.4691 41.8097 26.5442H55.9866L59.3723 20.1736L62.7379 26.5442ZM86.5843 21.6427H79.2387V7.61937H71.6928V26.5442H86.5776L86.5843 21.6427ZM104.18 21.6427H95.3856V19.1987H103.679V14.8514H95.3856V12.5276H104.2V7.61937H88.0734V26.5442H104.174L104.18 21.6427ZM115.346 12.5276C115.793 12.5363 116.221 12.7116 116.545 13.0191C116.87 13.3266 117.069 13.7443 117.102 14.1903C117.122 14.3522 117.122 14.5159 117.102 14.6778C117.063 15.1134 116.86 15.518 116.534 15.8094C116.208 16.1008 115.783 16.2573 115.346 16.2471H113.149V12.5276H115.346ZM116.795 26.5509H125.356L120.681 19.1452C121.546 18.8912 122.335 18.43 122.981 17.8016C123.627 17.1731 124.11 16.3966 124.387 15.5392C124.576 14.9436 124.667 14.321 124.654 13.6962C124.648 12.6372 124.334 11.6029 123.753 10.7179C122.917 9.47976 121.682 8.56536 120.254 8.12688C118.65 7.72715 116.997 7.5585 115.346 7.62605H105.863V26.5509H113.149V19.2054L116.795 26.5509ZM130.885 0.00668868C129.873 0.00668954 128.884 0.30685 128.042 0.86921C127.201 1.43157 126.545 2.23086 126.158 3.16593C125.771 4.10099 125.67 5.12983 125.868 6.12226C126.066 7.11469 126.554 8.02612 127.27 8.74123C127.986 9.45633 128.898 9.94298 129.891 10.1396C130.884 10.3362 131.912 10.234 132.847 9.84578C133.781 9.4576 134.58 8.80093 135.141 7.95887C135.702 7.1168 136.001 6.12717 136 5.1152C136 4.4429 135.867 3.77719 135.61 3.15615C135.353 2.53511 134.975 1.97092 134.499 1.49584C134.024 1.02077 133.459 0.64413 132.838 0.38746C132.216 0.130791 131.55 -0.000873315 130.878 4.35915e-06L130.885 0.00668868ZM130.885 0.801338C131.74 0.800017 132.576 1.05246 133.288 1.5267C133.999 2.00094 134.554 2.67565 134.882 3.46539C135.21 4.25514 135.296 5.12441 135.129 5.96313C134.963 6.80185 134.551 7.57231 133.947 8.17695C133.342 8.78159 132.571 9.19321 131.733 9.35971C130.894 9.52621 130.025 9.44008 129.235 9.11225C128.445 8.78441 127.771 8.2296 127.296 7.51807C126.822 6.80654 126.57 5.97029 126.571 5.1152C126.571 3.97163 127.024 2.8747 127.832 2.06483C128.639 1.25495 129.735 0.798199 130.878 0.794664L130.885 0.801338ZM131.853 6.65109H132.608V7.62605H129.409V6.65109H130.164V3.49917H129.409V2.52421H131.853V6.65109Z" fill="#D7B46A"></path>
+            </svg>
+        </div>
+        <div class="brand-1-text">
+            <p>Качество для нас приоритет. Наше обязательство в отношении вашего здоровья крепко и неизменно, и мы придерживаемся этих ценностей в каждом нашем действии.</p>
+        </div>
+    </div>
+    <div class="brand-2">
+        <img src="media/brand-img.png">
+    </div>
+</div>
+
+
+<div class="contacts-section" >
+    <h1 style="padding-top: 88px; text-align: center;">КОНТАКТЫ</h1>
+    <div class="contain" id="konttacs">
+        <div class="contacts-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2017.766495268723!2d34.34215202191109!3d53.24802191584376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412d5844ba823585%3A0xfb2cc1496471eef2!2z0J7QsdGJ0LXQttC40YLQuNC1LCDQkdCz0LjRgtCw!5e0!3m2!1sru!2sru!4v1718886804246!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form class="contact__form">
+            <label class="contact__label">
+                Имя <br>
+                <input type="text" name="name" required="" placeholder="Введите ваше имя">
+            </label>
+
+            <label class="contact__label">
+                Телефон <br>
+                <input type="text" name="form" required="" placeholder="+7 (___) ___ - __ - __">
+            </label>
+
+            <label class="contact__label">
+                Сообщение <br>
+                <input type="text" name="text" required="" placeholder="Введите текст сообщения">
+            </label>
+            <button class="contact__button" type="submit" form="form" @onclick="appText">ОТПРАВИТЬ <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span></button>
+        </form>
+        <div class="contact__info">
+            <div class="contact__block">
+                <p class="contact__pretitle">Адрес</p>
+                <p class="contact__text">г. Брянск, пр. Станке Димитрова, 3а</p>
+            </div>
+
+            <div class="contact__block">
+                <p class="contact__pretitle">Почта</p>
+                <p class="contact__text">somemail.milo.com</p>
+            </div>
+
+            <div class="contact__block">
+                <p class="contact__pretitle">Телефон</p>
+                <p class="contact__text">+7(987) 654-32-10</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    public List<string> PhotoUrls { get; set; } = new();
+    protected override async Task OnInitializedAsync()
+    {
+        PhotoUrls = new()
+        {
+        "/media/img1.png",
+        "/media/img2.png",
+        "/media/img3.png",
+        "/media/img4.png",
+        };
+    }
+
+    public async void appText()
+    {
+        await js.InvokeAsync<string>("showAlert", "Ваше сообщение отправлено. Спасибо за обратную связь");
+    }
+
+
+    private void NavigateToPage2()
+    {
+        NavigationManager.NavigateTo("/maxiler");
+    }
+}
+

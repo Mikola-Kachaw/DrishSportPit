@@ -1,0 +1,99 @@
+﻿.container-account {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 56px;
+    margin-top: 117px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    padding: 50px 70px;
+}
+
+.rating{
+    font-size:45px;
+    text-align:center;
+}
+
+.avatar-img {
+    width: 220px;
+    height: 100%;
+    margin-right: 67px;
+}
+
+    .avatar-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+.payment {
+    width: 35%;
+    padding: 52px 36px;
+}
+
+.purchares, .catalog {
+    width: 100%;
+    padding: 45px;
+}
+
+.profile, .payment, .purchares {
+    background-color: #E2E2E2;
+    border-radius: 20px;
+}
+
+.purchares-item, .purchares-item-2 {
+    width: 534px;
+    border: white solid 10px;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+
+.purchares-img, .catalog-img {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 60px;
+}
+
+    .purchares-img img, .catalog-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+.star-rating {
+    display: inline-block;
+}
+
+.star {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.buy-button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }

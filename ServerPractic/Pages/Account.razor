@@ -1,0 +1,120 @@
+﻿@page "/account"
+@using System.ComponentModel.DataAnnotations
+@using Microsoft.AspNetCore.Components
+@inject NavigationManager NavigationManager
+
+<h1 style="margin-top: 132px; text-align: center;">ЛИЧНЫЙ КАБИНЕТ</h1>
+
+<div class="container-account">
+    <div style="display: flex; width: 100%; height: 422px; gap: 56px;">
+        <div class="profile">
+            <div style="display: flex; width: 100%; align-items: center;">
+                <div class="avatar-img">
+                    <img src="media/avatar.png">
+                </div>
+                <p style="font-size: 60px;">Иванов И.И.</p>
+            </div>
+            <p style="font-size: 45px;"><span style="color: #8d8d8d; margin-right: 90px;">Телефон</span>+7(012) 345-67-89</p>
+        </div>
+        <div class="payment">
+            <h1 style="font-size: 55px;">Способы оплаты</h1>
+            <div style="display: flex; justify-content: space-between; width: 100%; margin-top: 92px;">
+                <p style="color: #8d8d8d; font-size: 45px;">SberPay ∙∙**</p>
+                <img style="height: 77px;margin: -15px;" src="media/sber.png">
+            </div>
+        </div>
+    </div>
+    <div class="purchares" style="margin-bottom:120px">
+        <h1 style="font-size: 55px; font-weight:bold;">Покупки</h1>
+        <div style="display: flex; width: 100%; flex-wrap: wrap; margin-top: 20px; gap: 80px;">
+            <div class="purchares-item">
+                <div style="width: 100%; padding: 0 50px;">
+                    <div class="purchares-img" @onclick="ImgManCreat">
+                        <img src="media/banka.png">
+                    </div>
+                </div>
+                <p style="margin-top: 8px; font-size: 25px; font-weight: 500; text-align: center;line-height:normal;">
+                    <span style="color: #8b8b8b; font-weight: 700;">КРЕАТИН</span>
+                    <br>
+                    <span style="font-weight: 900;">CREATINE 100% MONOHYDRATE</span>
+                    <br>
+                    НЕСКОНЧАЕМЫЙ ЗАРЯД ЭНЕРГИИ ДЛЯ НОВЫХ ПОБЕД
+                </p>
+               
+                    <div class="rating">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <span @onclick="() => SetRating(i)">
+                                @if (Rating >= i)
+                                {
+                                    <i class="fas fa-star"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star"></i>
+                                }
+                            </span>
+                        }
+                    </div>
+         
+                
+            </div>
+            <div class="purchares-item-2">
+                <div style="width: 100%; padding: 0 50px;">
+                    <div class="purchares-img" @onclick="ImgManProt">
+                        <img src="media/banka2.png">
+                    </div>
+                </div>
+                <p style="margin-top: 8px; font-size: 25px; font-weight: 500; text-align: center; line-height:normal">
+                    <span style="color: #8b8b8b; font-weight: 700;">ПРОТЕИН</span>
+                    <br>
+                    <span style="font-weight: 900;">BIG WHEY, вкус Мороженое</span>
+                    <br>
+                    ДЛЯ НАБОРА МЫШЕЧНОЙ МАССЫ И ПОХУДЕНИЯ
+                </p>
+                
+                <div class="rating">
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <span @onclick="() => SetRating(i)">
+                                @if (Rating >= i)
+                                {
+                                    <i class="fas fa-star"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star"></i>
+                                }
+                            </span>
+                        }
+                </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+@code {
+    [Parameter]
+    public int Rating { get; set; }
+
+    [Parameter]
+    public EventCallback<int> RatingChanged { get; set; }
+
+    private void SetRating(int newRating)
+    {
+        Rating = newRating;
+        RatingChanged.InvokeAsync(Rating);
+    }
+
+    private void ImgManCreat()
+    {
+        NavigationManager.NavigateTo("/maxiler");
+    }
+
+    private void ImgManProt()
+    {
+        NavigationManager.NavigateTo("/bigwhey");
+    }
+}
+
+

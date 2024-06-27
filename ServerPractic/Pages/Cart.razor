@@ -1,0 +1,132 @@
+﻿@page "/cart"
+@using ServerPractic.Entities
+@inject NavigationManager NavigationManager
+@inject CartService CartService
+
+
+<h1 style="margin-top: 132px; text-align: center;">КОРЗИНА</h1>
+
+@if (!CartService.GetCartItems().Any())
+{
+    <p style="font-weight:700; font-size: 25px; text-align:center; margin:100px 0 0 ">Корзина пуста.</p>
+    <div style="text-align:center; margin-bottom:100px">
+        <img src="/media/carts.jpg" />
+    </div>
+}
+else
+{
+    <div class="container-purchases">
+
+
+
+        <div id="items" class="list-buy-items">
+            @foreach (var product in CartService.GetCartItems())
+            {
+
+
+                <div class="buy-item">
+                    <div style="display: flex; justify-content: end; width: 100%;">
+                        <button id="btnClose" @onclick="() => RemoveCartItem(product)" class="closeModal"></button>
+                    </div>
+                    <div style="display: flex; width: 100%;">
+                        <img src="@product.PhotoUrl" alt="@product.Name" />
+                        <div style="display: flex; flex-direction: column; justify-content: space-between; width: 100%; padding: 0 70px;">
+                            <p style="font-size: 30px;">@product.Name</p>
+                            <div style="display: flex; width: 100%; align-items: end; justify-content: space-between;">
+                                <div class="count-container">
+                                    <button class="minus-btn" @onclick="() => UpdateQuantity(product, -1)" type="button">
+                                        <span class="bi bi-dash"></span>
+                                    </button>
+                                    <input id="quantity-input" type="text" value="@CartService.GetCartItemQuantity(product)" disabled>
+                                    <button class="plus-btn" @onclick="() => UpdateQuantity(product, 1)" type="button">
+                                        <span class="bi bi-plus"></span>
+                                    </button>
+                                </div>
+                                @if (product.Salebool == true)
+                                {
+                                    <p style="color: #5d5d5d; font-size: 20px; font-weight: 600;">За 1 шт: <br> @product.SealProd₽</p>
+                                    <p id="total-price" style="font-family: AriBlk; font-size: 50px; font-weight: bold;">@CartService.GetCartItemTSalePrice(product)₽</p>
+                                }
+                                @if(product.Salebool==false){
+                                    <p style="color: #5d5d5d; font-size: 20px; font-weight: 600;">За 1 шт: <br> @product.Price₽</p>
+                                    <p id="total-price" style="font-family: AriBlk; font-size: 50px; font-weight: bold;">@CartService.GetCartItemTotalPrice(product)₽</p>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+           
+        </div>
+
+        <div id="menu" class="buy-menu">
+            <h2 style="font-size: 50px; font-family: AriBlk; text-align: center;">ВАШ ЗАКАЗ</h2>
+            <p style="font-size: 33px; font-weight: 500; margin-top: 67px;">
+                Доставка:<br>
+                <span style="color: #878787;">Самовывоз</span>
+            </p>
+            <p style="font-size: 33px; font-weight: bold; margin-top: 65px;">
+                Оплата:<br>
+                <button class="now-button">При получении</button>
+                <button class="now-button">Сейчас</button>
+            </p>
+            
+            <div style="display: flex; justify-content: space-between; align-items: end; margin-top: 120px;">
+                <h2 style="font-weight:bold; font-size:40px;">Итого</h2>
+
+
+                <b id="total-price-all" style="font-size: 50px; font-weight: bold;">@GetTotalPrice()₽</b>
+                    
+            </div>
+            <button class="buy-button-menu" @onclick="NavigateToPagePay">КУПИТЬ</button>
+
+        </div>
+        <p id="message" style="display: none; font-size: 40px; color: black;">Текст появляется, если объекты скрыты</p>
+    </div>
+           
+
+
+
+}
+
+
+@code
+{
+    private List<ProductEntity> CartItems { get; set; }
+
+    protected override void OnInitialized()
+    {
+        CartItems = CartService.GetCartItems();
+    }
+
+    private void UpdateQuantity(ProductEntity product, int change)
+    {
+        CartService.UpdateQuantity(product, change);
+        StateHasChanged();
+    }
+
+    private decimal GetTotalPrice()
+    {
+
+        return CartService.GetTotalPrice();
+
+    }
+
+  
+
+
+
+    private void RemoveCartItem(ProductEntity product)
+    {
+        CartService.RemoveItem(product);
+        StateHasChanged();
+
+
+    }
+
+    private void NavigateToPagePay()
+    {
+        NavigationManager.NavigateTo("/pay");
+    }
+
+}

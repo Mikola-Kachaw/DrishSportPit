@@ -1,0 +1,63 @@
+﻿.hit-container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 17px;
+    max-width: 1757px;
+    min-height: 783px;
+}
+
+.hit-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+
+.buy-button {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.accordion-info {
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0 150px 150px 150px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: inherit;
+    text-align: center;
+}
+
+.hit-description b {
+    font-size: 45px
+}
+
+
+.hit-description {
+    font-family: Arial;
+    font-size: 25px;
+    max-width: 60%;
+    text-transform: uppercase;
+}
+
+blockquote, table {
+    margin: 0 0 24px;
+}
