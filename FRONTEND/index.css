@@ -8,6 +8,10 @@
     margin-top: 500px;
 }
 
+.mt-180 {
+    margin-top: 180px;
+}
+
 @font-face {
     font-family: Simpsonfont;
     src: url('fonts/Simpsonfont.ttf');
@@ -34,7 +38,7 @@ h1 {
 }
 
 
-/*Карусель*/
+/*Карусель №1*/
 .all {
     margin-top: 98px;
 }
@@ -103,12 +107,6 @@ label, a, image{ /*при наведении на стрелки или пере
 	cursor: pointer;
 }
 
-/*k1{
-    background: url('media/img1.png');
-}
-.k1:hover{
-    background: url('media/img1_h.png');
-}*/
 .all input{ /*скрывает стандартные инпуты (чекбоксы) на странице*/
 	display: none;
 }
@@ -229,11 +227,11 @@ a {
     background: red;
     color: white;*/
 
-.slideshow-container {
+/*.slideshow-container {
     margin: 100px auto 0;
     max-width: 600px;
     position: relative;
-}
+}*/
 
 .mySlides {
     display: none;
@@ -280,6 +278,70 @@ img {
 .active, .dot:hover {
     background-color: #717171;
 }
+
+/* Карусель №2 */
+.slideshow-container {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+/*Сделать изображения невидимыми по умолчанию*/
+.Containers {
+    display: none;
+}
+
+/*кнопки "вперед" и "назад"*/
+.back, .forward {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: auto;
+    padding: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.4s ease;
+    user-select: none;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+/*Расположить кнопку "вперед" справа.*/
+.forward {
+    right: 0;
+}
+
+.back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/*Анимация слайдов*/
+.fade {
+    animation: fade 10s infinite; /*устанавливает одновременно имя анимации, длительность (10 секунд) и бесконечное повторение анимации.*/
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 /*Хит продаж*/
 .hit-container {
     margin-top: 100px;
@@ -296,12 +358,13 @@ img {
     background-color: white;
     border: none;
 }
+
+
 .background {
     background-image: url('media/hit_sale_back.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    padding: 50px;
 }
 /*Описание*/
 .hit-flex {
@@ -309,10 +372,11 @@ img {
     flex-wrap: wrap;
     gap: 100px;
 
-    padding: 50px;
+    padding: 50px 85px;
 }
-.hit-flex img{
-    height: 650px;
+
+.hit-flex img {
+    max-height: 467px;
 }
 
 .hit-description {
@@ -409,7 +473,7 @@ img {
 .accordion-info{
     font-family: Arial;
     font-size: 20px;
-    padding: 0 150px 150px 150px;
+    padding: 0 150px 150px;
 }
 .product-table {
     width: 100%;
@@ -595,7 +659,6 @@ iframe {
 .buy-menu {
     font-family: Arial;
     width: 30%;
-    height: 834px;
 
     padding: 36px;
 
@@ -690,8 +753,6 @@ input:focus {
     width: 100%;
     padding: 20px 0;
 
-    margin-top: 41px;
-
     cursor: pointer;
     transition: all 0.2s;
 
@@ -742,8 +803,8 @@ input:focus {
 }
 
 .avatar-img {
-    width: 220px;
-    height: 100%;
+    max-width: 220px;
+    max-height: 100%;
 
     margin-right: 67px;
 }
@@ -793,7 +854,7 @@ input:focus {
 
 /*Каталог товаров*/
 .catalog-item, .catalog-item-2 {
-    width: 534px;
+    max-width: 534px;
     border: white solid 10px;
     border-radius: 20px;
 
@@ -825,10 +886,27 @@ input:focus {
     
 }
 
+.jsc-spb {
+    justify-content: space-between;
+}
+
+
 /*Адаптив*/
 @media (max-width: 1622px) {
     .brand-sector {
-        gap: 100px;
+        gap: 600px;
+    }
+
+    .f-wrap {
+        flex-wrap: wrap;
+    }
+
+    .container-account {
+        gap: 530px;
+    }
+
+    .profile, .payment {
+        width: 100%;
     }
 }
 
@@ -901,15 +979,46 @@ input:focus {
     .pad-0-70 {
         padding: 0;
     }
+
+    .footer {
+        padding: 31px 141px;
+    }
 }
 
 @media (max-width: 710px) {
     .f-wrap-2 {
-        flex-wrap: wrap;
         row-gap: 20px;
     }
-}
 
+    .payment div {
+        row-gap: 30px;
+    }
+
+    .profile div, .f-wrap-2, .payment div {
+        flex-wrap: wrap;
+    }
+
+    .profile p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-account {
+        row-gap: 730px;
+    }
+
+    .jsc-spb {
+        justify-content: center;
+    }
+
+    .purchares-img {
+        padding: 0;
+    }
+
+    .avatar-img {
+        margin-right: 0;
+    }
+}
 
 @media (max-width: 480px) {
     .brand-1, .brand-2, .brand-2 img {
@@ -935,5 +1044,21 @@ input:focus {
 
     .footer {
         padding: 31px 20px;
+    }
+
+    .hit-flex {
+        padding: 50px 30px;
+    }
+
+    .accordion-info {
+        padding: 0 10px 150px;
+    }
+
+    .container-account, .purchares-img, .container-purchases {
+        padding: 0;
+    }
+
+    .buy-item {
+        padding: 10px 20px 45px 50px;
     }
 }

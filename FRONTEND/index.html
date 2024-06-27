@@ -100,34 +100,62 @@
     
     <h1 style="margin-top: 132px; text-align: center;">ХИТ ПРОДАЖ</h1>
 
-    <div class="hit-container">
-        <button class="arrow-left">‹</button>
-        <div class="hit-flex background">
-            <img src="media/banka.png">
-            <div class="hit-description">
-                <b>CREATINE 100% MONOHYDRATE</b>
-                <br>
-                <i>НЕСКОНЧАЕМЫЙ ЗАРЯД ЭНЕРГИИ ДЛЯ НОВЫХ ПОБЕД</i>
-                <br><br>
-                Креатин — одна из лучших добавок для тех, кто выполняет интенсивные упражнения или занимается интенсивными видами
-                спорта. Он может придать сил для езды на велосипеде, помочь ускорить спринт и даже улучшить прыжки.
-                <br><br>
-                Креатин не только помогает мышцам вырабатывать больше энергии, но и усиливает сигналы, способствующие образованию
-                новых мышечных волокон в вашем теле.
-                <br><br>
-                Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
-                уровень, будь то тренировки в зале или соревнования.
-                <br>
-                <a href="MAXLER.html">
-                    <button class="buy-button">
-                        ПЕРЕЙТИ <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
+    <div class="slideshow-container fade">
+        <div class="Containers">
+            <div class="hit-flex background">
+                <div style="max-height: 650px; max-width: 421px;">
+                    <img style="width: 100%; height: 100%;" src="media/banka.png">
+                </div>
+                <div class="hit-description">
+                    <b>CREATINE 100% MONOHYDRATE</b>
+                    <br>
+                    <i>НЕСКОНЧАЕМЫЙ ЗАРЯД ЭНЕРГИИ ДЛЯ НОВЫХ ПОБЕД</i>
+                    <br><br>
+                    Креатин — одна из лучших добавок для тех, кто выполняет интенсивные упражнения или занимается интенсивными видами
+                    спорта. Он может придать сил для езды на велосипеде, помочь ускорить спринт и даже улучшить прыжки.
+                    <br><br>
+                    Креатин не только помогает мышцам вырабатывать больше энергии, но и усиливает сигналы, способствующие образованию
+                    новых мышечных волокон в вашем теле.
+                    <br><br>
+                    Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
+                    уровень, будь то тренировки в зале или соревнования.
+                    <br>
+                    <button onclick="window.location.href = 'MAXLER.html'" class="buy-button">
+                        ПЕРЕЙТИ 
+                        <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
                     </button>
-                </a>
+                </div>
             </div>
         </div>
-        <button class="arrow-right">›</button>
-    </div>
+    
+        <div class="Containers">
+            <div class="hit-flex background">
+                <div style="max-height: 650px; max-width: 421px;">
+                    <img style="width: 100%; height: 100%;" src="media/banka2.png">
+                </div>
+                <div style="font-size: 23px;" class="hit-description">
+                    <b>Протеин BIG WHEY,<br>вкус Мороженое</b>
+                    <br>
+                    <i>ДЛЯ НАБОРА МЫШЕЧНОЙ МАССЫ И ПОХУДЕНИЯ</i>
+                    <br><br>
+                    Сывороточный протеин+изолят BIG WHEY создан для того, чтобы вы смогли достичь поставленной цели - будь то набор сухой мышечной массы, похудение, или увеличение количества качественного белка в повседневном рационе. 
+                    <br><br>
+                    В протеине BIG WHEY повышенное содержание BCAA - трех незаменимых аминокислот, крайне важных в жизни любого человека. Создатели продукта BIG приложили максимальные усилия, благодаря которым вы можете наслаждаться удивительным вкусом любимого протеина даже при разведении водой.
+                    <br><br>
+                    Протеин BIG WHEY - это минимальное количество жиров и углеводов, и максимальное - белка, в каждой порции. Благодаря технологии INSTANT протеин BIG WHEY - это лучшая растворимость в сравнении с обычными протеинами.
+                    <br>
+                    <button onclick="window.location.href = 'BIG WHEY.html'" class="buy-button">
+                        ПЕРЕЙТИ 
+                        <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
 
+        <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
     <h1 style="margin-top: 132px; text-align: center;">ТОП БРЕНДЫ</h1>
 
     <div class="brand-sector">
@@ -218,6 +246,6 @@
         </a>
         <p style="color: #626262; font-family: Arial; font-size: 15px;">2024 © DrishSportPit</p>
     </div>
-    <script src="index.js"></script>
+    <script src="carousel.js"></script>
 </body>
 </html>

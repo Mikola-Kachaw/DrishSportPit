@@ -2,22 +2,27 @@ var lastQuantity = {}; // Объект для хранения последни�
 
 // Функция для обновления общей цены
 function updateTotalPrice(input) {
-    var parent = input.closest('.buy-item');
-    var quantityInput = parent.querySelector('.quantity-input');
+    var parent = input.closest('.buy-item'); //строка кода ищет и сохраняет в переменной parent ближайший родительский элемент (по отношению к элементу ввода input), который имеет класс 'buy-item'
+
+    var quantityInput = parent.querySelector('.quantity-input'); // сохраняет в переменной quantityInput элемент с классом 'quantity-input', который находится внутри родительского элемента parent
     var quantity = quantityInput.value !== '' ? parseInt(quantityInput.value) : lastQuantity[parent.id] || 1; // Проверяем, если значение не пустое, то преобразуем его в число, иначе используем 1
-    
-    // Проверка на корректность введенных данных
-    if (isNaN(quantity) || quantity <= 0) {
-        return; // Выходим из функции, не обновляя общую цену
-    }
     
     var pricePerItem = parseInt(parent.getAttribute('data-price'));
     var totalPrice = calculateTotalPrice(quantity, pricePerItem); // Вызываем функцию для расчета общей суммы с учетом количества
     parent.querySelector('.total-price').textContent = totalPrice + '\u20BD'; // Обновляем текст общей цены
     
     var totalPrices = document.querySelectorAll('.total-price');
-    var sum = Array.from(totalPrices).reduce((acc, elem) => acc + parseInt(elem.textContent), 0);
     
+    // Преобразует коллекцию элементов totalPrices (предположительно, это массив или коллекция DOM элементов) в массив, чтобы можно было использовать методы массива.
+    // Применяется метод reduce() к массиву totalPrices, который выполняет аккумуляцию значений элементов массива
+    // если у родительского элемента элемента elem с классом 'buy-item' свойство display не равно "none", то к аккумулятору acc добавляется значение содержимое элемента elem, преобразованное в число с помощью parseInt(). В противном случае добавляется 0.
+    var sum = Array.from(totalPrices).reduce((acc, elem) => acc + (elem.closest('.buy-item').style.display !== "none" ? parseInt(elem.textContent) : 0), 0);
+
+    
+    if (parent.style.display === "none" || isNaN(quantity) || quantity <= 0) {
+        return; // Если объект скрыт или некорректно были введены данные то, прекращаем обновление цены
+    }
+
     document.querySelector('.total-price-all').textContent = sum + '\u20BD'; // Обновляем текст итоговой цены
     lastQuantity[parent.id] = quantity; // Сохраняем текущее значение как lastQuantity
 }
@@ -35,7 +40,7 @@ function decreaseValue(input) {
     } else {
         value = 1;
     }
-    input.value = value;
+    input.value = value; // устанавливает значение value в элемент ввода input
     updateTotalPrice(input);
 }
 
@@ -51,16 +56,19 @@ function increaseValue(input) {
     updateTotalPrice(input);
 }
 
-// Функция, определяет пуста ли корзина
+// Функция, которая скрывает объекты по нажатию на крестик
 function hideItem(button) {
     var item = button.closest(".buy-item");
-    var price = parseInt(item.querySelector('.total-price').textContent);
     item.style.display = "none";
-  
+    
+    // это метод, который ищет все элементы на странице с классом "buy-item", у которых атрибут style не равен "display: none".
     var itemsVisible = document.querySelectorAll(".buy-item:not([style='display: none;'])");
     var message = document.getElementById("message");
 
     var totalAll = document.querySelector('.total-price-all');
+    
+    // находит внутри текущего элемента elem элемент с классом 'total-price' с помощью querySelector(), затем берет его текстовое содержимое и преобразует его в число с помощью parseInt()
+    // acc + ... - добавляет полученное число к текущему значению аккумулятора acc.
     var sum = Array.from(itemsVisible).reduce((acc, elem) => {
         return acc + parseInt(elem.querySelector('.total-price').textContent);
     }, 0);
@@ -92,10 +100,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Кнопка минус
-document.querySelectorAll('.minus-btn').forEach(function(btn) {
-    btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        var input = this.closest('.buy-item').querySelector('.quantity-input');
+document.querySelectorAll('.minus-btn').forEach(function(btn) { // Выбирает все элементы на странице с классом "minus-btn" и для каждого из них запускает функцию.
+    btn.addEventListener('click', function(e) {     // Добавляет слушатель события "click" для каждой кнопки с классом "minus-btn".
+        e.preventDefault(); // Останавливаем стандартное действие браузера по умолчанию при клике на кнопку.
+        var input = this.closest('.buy-item').querySelector('.quantity-input');    // Находит ближайший родительский элемент с классом "buy-item", а затем внутри него находит элемент с классом "quantity-input" и сохраняет его в переменную input.
         decreaseValue(input);
     });
 });
@@ -115,7 +123,7 @@ document.querySelectorAll('.quantity-input').forEach(function(input) {
         input.addEventListener('input', function() {
             this.value = this.value.replace(/[^0-9]/g, ''); // Оставляет только числовые символы
         });
-        var quantityInput = this;
+        var quantityInput = this;   // присваивает текущий элемент (обычно элемент ввода) переменной quantityInput
         var quantity = parseInt(quantityInput.value);
         if (quantity > 100) {
             quantity = 100; // Ограничиваем введенное число 100, если оно больше
