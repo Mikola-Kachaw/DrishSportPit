@@ -318,6 +318,7 @@ img {
     right: 0;
 }
 
+
 .back:hover, .forward:hover {
     background-color: rgba(0,0,0,0.8);
 }
@@ -365,6 +366,13 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    position: relative;
+    min-height: 783px;
+    max-width: 1757px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Описание*/
 .hit-flex {
@@ -373,6 +381,7 @@ img {
     gap: 100px;
 
     padding: 50px 85px;
+
 }
 
 .hit-flex img {
@@ -424,36 +433,34 @@ img {
 
     padding: 46px 34px 34px;
     font-family: AriBlk;
-    font-style: bold;
     background-color: #E2E2E2;
     border-radius: 20px;
+    color: #E2E2E2; 
+    margin-right: 113px;
+    font-style: bold;
+
     transition: all 0.5s ease-in-out;
 }
 
 .brand-1:hover{
     background-color: black;
     transition: all 0.5s ease-in-out;
-}
-
-.brand-1-text {
     color: white; 
     font-size: 40px; 
     margin-right: 113px;
     font-style: bold;
-    opacity: 0;
+}
+.brand-1 svg{
+    margin-top: 250px;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+}
+.brand-1:hover svg{
+    position:relative;
+    margin-top:-35px;
     transition: all 0.5s ease-in-out;
 }
 
-.brand-1-text:hover{
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-}
-
-.maxler{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
 
 .brand-2 {
     max-width: 702px;
