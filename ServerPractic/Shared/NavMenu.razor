@@ -1,0 +1,109 @@
+﻿@inject NavigationManager NavigationManager
+
+<nav>
+    <div class="menu menu-flex">
+        <button title="Navigation menu" class="navbar-toggler" @onclick="NavigateToPage2">
+            <img class="logo" src="media/logo.png">
+        </button>
+
+        <div class="nav-item">
+            <NavLink href="/product" Match="NavLinkMatch.All">
+                Каталог товаров
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <NavLink href="/Error" Match="NavLinkMatch.All">
+                Распродажа
+            </NavLink>
+        </div>
+        <div class="nav-item">
+            <a href="#konttacs" Match="NavLinkMatch.All">
+                Контанты
+            </a>
+        </div>
+
+        <label class="button-search">
+            
+            <svg width="36px" height="36px" viewBox="-1 -1 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="@GetDropdownClass()">
+                    <input type="text" class="typehead-input" autocomplete="off" placeholder="" />
+                </div>
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M17.0392 15.6244C18.2714 14.084 19.0082 12.1301 19.0082 10.0041C19.0082 5.03127 14.9769 1 10.0041 1C5.03127 1 1 5.03127 1 10.0041C1 14.9769 5.03127 19.0082 10.0041 19.0082C12.1301 19.0082 14.084 18.2714 15.6244 17.0392L21.2921 22.707C21.6828 23.0977 22.3163 23.0977 22.707 22.707C23.0977 22.3163 23.0977 21.6828 22.707 21.2921L17.0392 15.6244ZM10.0041 17.0173C6.1308 17.0173 2.99087 13.8774 2.99087 10.0041C2.99087 6.1308 6.1308 2.99087 10.0041 2.99087C13.8774 2.99087 17.0173 6.1308 17.0173 10.0041C17.0173 13.8774 13.8774 17.0173 10.0041 17.0173Z" fill="#ffffff"></path> </g>
+            </svg>
+            
+        </label>
+        <a @onclick="NavigateToPageBag">
+            <svg width="38px" height="38px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier"> <path d="M4.5 5H18.2768C19.0446 5 19.526 5.82948 19.1451 6.49614L16.5758 10.9923C16.2198 11.6154 15.5571 12 14.8394 12H8M8 12L6.45625 14.47C6.03997 15.136 6.51881 16 7.30425 16H18M8 12L4.05279 4.10557C3.714 3.428 3.02148 3 2.26393 3H2M8 20C8 20.5523 7.55228 21 7 21C6.44772 21 6 20.5523 6 20C6 19.4477 6.44772 19 7 19C7.55228 19 8 19.4477 8 20ZM18 20C18 20.5523 17.5523 21 17 21C16.4477 21 16 20.5523 16 20C16 19.4477 16.4477 19 17 19C17.5523 19 18 19.4477 18 20Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g>
+                <!--<span class="badge">1</span>-->
+            </svg>
+        </a>
+        <a @onclick="NavigateToPageAccount">
+            <svg width="38px" height="38px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Stock_cut" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier"> <desc></desc> 
+            <g> <circle cx="16" cy="16" fill="none" r="15" stroke="#ffffff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle> <path d="M26,27L26,27 c0-5.523-4.477-10-10-10h0c-5.523,0-10,4.477-10,10v0" fill="none" stroke="#ffffff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></path> <circle cx="16" cy="11" fill="none" r="6" stroke="#ffffff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></circle> </g>        </g>
+            </svg>
+        </a>
+    </div>
+
+</nav>
+
+
+
+
+
+
+
+
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private bool showDropdown = false;
+
+    private string GetDropdownClass()
+    {
+        if (showDropdown)
+        {
+            return "dropdown-menu show";
+        }
+        else
+        {
+            return "dropdown-menu";
+        }
+    }
+
+    private void ToggleDropdown()
+    {
+        showDropdown = !showDropdown;
+        StateHasChanged();
+    }
+
+    private void NavigateToPage2()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+
+    private void NavigateToPageBag()
+    {
+        NavigationManager.NavigateTo("/cart");
+    }
+
+    private void NavigateToPageAccount()
+    {
+        NavigationManager.NavigateTo("/account");
+    }
+}

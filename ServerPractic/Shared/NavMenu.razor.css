@@ -1,0 +1,60 @@
+.menu {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px 180px;
+    background-color: black;
+}
+
+.menu-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.nav-item ::deep a.active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item ::deep a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+li {
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+a.nav-item {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.button-search {
+    cursor: pointer;
+    font-size: 23px;
+}

@@ -1,0 +1,9 @@
+.star-rating[b-u7fcfta1rz] {
+    display: inline-block;
+}
+
+.star[b-u7fcfta1rz] {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}

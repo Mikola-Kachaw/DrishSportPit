@@ -1,0 +1,29 @@
+.buy-button[b-w6cj7sn6nt] {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover[b-w6cj7sn6nt] {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.container[b-w6cj7sn6nt]{
+    text-align:center;
+}
+.form-group[b-w6cj7sn6nt]{
+    margin-bottom: 30px;
+}
+
+label[b-w6cj7sn6nt] {
+    font-family: Arial Bold;
+}

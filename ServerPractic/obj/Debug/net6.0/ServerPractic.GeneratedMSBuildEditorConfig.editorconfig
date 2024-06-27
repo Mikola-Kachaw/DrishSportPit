@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ServerPractic
+build_property.RootNamespace = ServerPractic
+build_property.ProjectDir = C:\Users\SDA\source\repos\ServerPractic\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\SDA\source\repos\ServerPractic
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/SDA/source/repos/ServerPractic/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SDA/source/repos/ServerPractic/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SDA/source/repos/ServerPractic/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/Account.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-q79hwuo8rn
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/BigWhey.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlnV2hleS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-va8aua6nbn
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-x0vy0rqs37
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-gxa26vpczj
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/MaxierPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF4aWVyUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-pb98leaitj
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/PaymentDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudERpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-w6cj7sn6nt
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/ProductsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kteqgpsiys
+
+[C:/Users/SDA/source/repos/ServerPractic/Shared/FootherMain.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3RoZXJNYWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-019a0zli1u
+
+[C:/Users/SDA/source/repos/ServerPractic/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-383mnqhbpe
+
+[C:/Users/SDA/source/repos/ServerPractic/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-n8jqge4pxw
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/SDA/source/repos/ServerPractic/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

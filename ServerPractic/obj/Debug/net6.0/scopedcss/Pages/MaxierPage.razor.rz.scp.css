@@ -1,0 +1,63 @@
+.hit-container[b-pb98leaitj] {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 17px;
+    max-width: 1757px;
+    min-height: 783px;
+}
+
+.hit-flex[b-pb98leaitj] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+
+.buy-button[b-pb98leaitj] {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: Arial;
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px 0px #00000075;
+    margin-top: 41px;
+    padding: 25px 46px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+    .buy-button:hover[b-pb98leaitj] {
+        background: #ffffff;
+        color: #000000;
+        box-shadow: 2px 2px 20px 0px #00000075;
+    }
+
+.accordion-info[b-pb98leaitj] {
+    font-family: Arial;
+    font-size: 20px;
+    padding: 0 150px 150px 150px;
+}
+
+.product-table[b-pb98leaitj] {
+    width: 100%;
+    border-collapse: inherit;
+    text-align: center;
+}
+
+.hit-description b[b-pb98leaitj] {
+    font-size: 45px
+}
+
+
+.hit-description[b-pb98leaitj] {
+    font-family: Arial;
+    font-size: 25px;
+    max-width: 60%;
+    text-transform: uppercase;
+}
+
+blockquote[b-pb98leaitj], table[b-pb98leaitj] {
+    margin: 0 0 24px;
+}

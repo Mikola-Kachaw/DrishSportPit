@@ -1,0 +1,17 @@
+.footer[b-019a0zli1u] {
+    width: 100%;
+    padding: 31px 181px;
+    background-color: #191919;
+}
+
+.footer-flex[b-019a0zli1u] {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo[b-019a0zli1u] {
+    max-width: 60px;
+}

@@ -1,0 +1,60 @@
+.menu[b-n8jqge4pxw] {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px 180px;
+    background-color: black;
+}
+
+.menu-flex[b-n8jqge4pxw] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav[b-n8jqge4pxw] {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.logo[b-n8jqge4pxw] {
+    max-height: 100px;
+}
+
+.nav-item[b-n8jqge4pxw]  a.active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item[b-n8jqge4pxw]  a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+li[b-n8jqge4pxw] {
+    position: relative;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+
+a.nav-item[b-n8jqge4pxw] {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.button-search[b-n8jqge4pxw] {
+    cursor: pointer;
+    font-size: 23px;
+}
