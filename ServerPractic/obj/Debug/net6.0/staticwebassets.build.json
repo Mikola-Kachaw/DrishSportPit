@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LsjVins0Q5fRXepQG2nhG7E0Y7AVsovNRpaeu8Fkc74=",
+  "Hash": "19TTWcfhoFRHduKFjocH5XQ0UEM2WwlivoMaQFW0V8U=",
   "Source": "ServerPractic",
   "BasePath": "_content/ServerPractic",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ServerPractic\\wwwroot",
       "Source": "ServerPractic",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerPractic.styles.css",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerPractic.styles.css",
       "SourceId": "ServerPractic",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "ServerPractic.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerPractic.styles.css"
+      "OriginalItemSpec": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ServerPractic.styles.css"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css",
       "SourceId": "ServerPractic",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "ServerPractic.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\css\\site.css",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\favicon.ico",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\ARIALBD.TTF",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\fonts\\ARIALBD.TTF",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "fonts/ARIALBD.TTF",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ARIALBD.TTF"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\ARIBLK.TTF",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\fonts\\ARIBLK.TTF",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "fonts/ARIBLK.TTF",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\ARIBLK.TTF"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\Simpsonfont.ttf",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\fonts\\Simpsonfont.ttf",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "fonts/Simpsonfont.ttf",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Simpsonfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\js\\carousel.js",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\js\\carousel.js",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "js/carousel.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\js\\carousel.js"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\js\\index.js",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\js\\index.js",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\android-chrome-192x192.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\android-chrome-192x192.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\media\\android-chrome-192x192.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\android-chrome-512x512.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\android-chrome-512x512.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\media\\android-chrome-512x512.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\apple-touch-icon.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\apple-touch-icon.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/apple-touch-icon.png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\media\\apple-touch-icon.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\arrow-back.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\arrow-back.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/arrow-back.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\media\\arrow-back.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\arrow-next.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\arrow-next.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/arrow-next.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\media\\arrow-next.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\avatar.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\avatar.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/avatar.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\media\\avatar.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\banka.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\banka.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/banka.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\media\\banka.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\banka2.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\banka2.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/banka2.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\media\\banka2.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\brand-img.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\brand-img.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/brand-img.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\media\\brand-img.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\browserconfig.xml",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\browserconfig.xml",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/browserconfig.xml",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\media\\browserconfig.xml"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\carts.jpg",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\carts.jpg",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/carts.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\media\\carts.jpg"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon.ico",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\favicon.ico",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/favicon.ico",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\media\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon-16x16.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\favicon-16x16.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/favicon-16x16.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\media\\favicon-16x16.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon-32x32.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\favicon-32x32.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/favicon-32x32.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\media\\favicon-32x32.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\hit_sale_back.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\hit_sale_back.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/hit_sale_back.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\media\\hit_sale_back.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\hit_sales.jpg",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\hit_sales.jpg",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/hit_sales.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\media\\hit_sales.jpg"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img1.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img1.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img1.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img1.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img1_h.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img1_h.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img1_h.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img1_h.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img2.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img2.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img2.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img2.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img2_h.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img2_h.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img2_h.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img2_h.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img3.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img3.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img3.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img3.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img3_h.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img3_h.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img3_h.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img3_h.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img4.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img4.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img4.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img4.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img4_h.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\img4_h.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/img4_h.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\media\\img4_h.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\logo.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\logo.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/logo.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\media\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\mstile-150x150.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\mstile-150x150.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/mstile-150x150.png",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\media\\mstile-150x150.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\profile.ico",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\profile.ico",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/profile.ico",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\media\\profile.ico"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\safari-pinned-tab.svg",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\safari-pinned-tab.svg",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/safari-pinned-tab.svg",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\media\\safari-pinned-tab.svg"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\sber.png",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\sber.png",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/sber.png",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\media\\sber.png"
     },
     {
-      "Identity": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\site.webmanifest",
+      "Identity": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\media\\site.webmanifest",
       "SourceId": "ServerPractic",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\wwwroot\\",
       "BasePath": "_content/ServerPractic",
       "RelativePath": "media/site.webmanifest",
       "AssetKind": "All",

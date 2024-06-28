@@ -134,11 +134,7 @@ label[b-gxa26vpczj], a[b-gxa26vpczj] { /*при наведении на стре
     transition: opacity 0.2s ease-out;
 }
 
-.slideshow-container[b-gxa26vpczj] {
-    margin: 100px auto 0;
-    max-width: 600px;
-    position: relative;
-}
+
 
 .mySlides[b-gxa26vpczj] {
     display: none;
@@ -290,7 +286,7 @@ img[b-gxa26vpczj] {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    padding: 50px 85px;
+    padding: 5px 10px;
 }
 
     .hit-flex img[b-gxa26vpczj] {
@@ -302,6 +298,7 @@ img[b-gxa26vpczj] {
     font-size: 25px;
     max-width: 60%;
     text-transform: uppercase;
+    line-height:normal;
 }
 
     .hit-description b[b-gxa26vpczj] {
@@ -326,7 +323,6 @@ img[b-gxa26vpczj] {
         color: #000000;
         box-shadow: 2px 2px 20px 0px #00000075;
     }
-
 .brand-sector[b-gxa26vpczj] {
     margin-top: 210px;
     display: flex;

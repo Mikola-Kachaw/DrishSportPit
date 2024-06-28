@@ -134,11 +134,7 @@ label, a { /*при наведении на стрелки или переклю
     transition: opacity 0.2s ease-out;
 }
 
-.slideshow-container {
-    margin: 100px auto 0;
-    max-width: 600px;
-    position: relative;
-}
+
 
 .mySlides {
     display: none;
@@ -290,7 +286,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    padding: 50px 85px;
+    padding: 5px 10px;
 }
 
     .hit-flex img {
@@ -302,6 +298,7 @@ img {
     font-size: 25px;
     max-width: 60%;
     text-transform: uppercase;
+    line-height:normal;
 }
 
     .hit-description b {
@@ -326,7 +323,6 @@ img {
         color: #000000;
         box-shadow: 2px 2px 20px 0px #00000075;
     }
-
 .brand-sector {
     margin-top: 210px;
     display: flex;

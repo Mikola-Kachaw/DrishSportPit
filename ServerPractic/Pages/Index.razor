@@ -64,7 +64,7 @@
                 Высококачественный Maxler Creatine 100% Monohydrate, не содержит лишних ингредиентов. Он поможет вам выйти на новый
                 уровень, будь то тренировки в зале или соревнования.
                 <br>
-                <button onclick="window.location.href = 'MAXLER.html'" class="buy-button">
+                <button @onclick="NavigateToPage2" class="buy-button">
                     ПЕРЕЙТИ
                     <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
                 </button>
@@ -88,7 +88,7 @@
                 <br><br>
                 Благодаря технологии INSTANT протеин BIG WHEY - это лучшая растворимость в сравнении с обычными протеинами.
                 <br>
-                <button onclick="window.location.href = 'BIG WHEY.html'" class="buy-button">
+                <button @onclick="NavigateToPage3" class="buy-button">
                     ПЕРЕЙТИ
                     <span style="font-size: 35px; bottom: 3px; position: relative;">&rsaquo;</span>
                 </button>
@@ -168,18 +168,12 @@
             // Запуск автоматической смены слайдов
             await jsRuntime.InvokeVoidAsync("startAutoSlide");
         }
-        if(firstRender == false)
+        else
         {
-            // Инициализация начального состояния слайдов
-            await jsRuntime.InvokeVoidAsync("initSlides");
-
-            // Запуск автоматической смены слайдов
+            // Запуск автоматической смены слайдов еще раз, если необходимо, при каждом обновлении
             await jsRuntime.InvokeVoidAsync("startAutoSlide");
-            
         }
-    }
-
-}
+    }}
 
 @code {
     public List<string> PhotoUrls { get; set; } = new();
@@ -203,6 +197,11 @@
     private void NavigateToPage2()
     {
         NavigationManager.NavigateTo("/maxiler");
+    }
+
+    private void NavigateToPage3()
+    {
+        NavigationManager.NavigateTo("/bigwhey");
     }
 }
 

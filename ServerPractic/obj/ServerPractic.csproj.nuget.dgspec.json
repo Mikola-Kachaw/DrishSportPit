@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\ServerPractic.csproj": {}
+    "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\ServerPractic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\ServerPractic.csproj": {
+    "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\ServerPractic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\ServerPractic.csproj",
+        "projectUniqueName": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\ServerPractic.csproj",
         "projectName": "ServerPractic",
-        "projectPath": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\ServerPractic.csproj",
+        "projectPath": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\ServerPractic.csproj",
         "packagesPath": "C:\\Users\\SDA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\",
+        "outputPath": "C:\\Users\\SDA\\Desktop\\Новая папка\\ServerPractic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SDA\\AppData\\Roaming\\NuGet\\NuGet.Config",
