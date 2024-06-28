@@ -1,195 +1,199 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ServerPractic.bundle.scp.css",
       "PackagePath": "staticwebassets\\ServerPractic.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\fonts\\ARIALBD.TTF",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\ARIALBD.TTF",
       "PackagePath": "staticwebassets\\fonts\\ARIALBD.TTF"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\fonts\\ARIBLK.TTF",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\ARIBLK.TTF",
       "PackagePath": "staticwebassets\\fonts\\ARIBLK.TTF"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\fonts\\Simpsonfont.ttf",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\fonts\\Simpsonfont.ttf",
       "PackagePath": "staticwebassets\\fonts\\Simpsonfont.ttf"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\js\\index.js",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\js\\index.js",
       "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\android-chrome-192x192.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\android-chrome-192x192.png",
       "PackagePath": "staticwebassets\\media\\android-chrome-192x192.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\android-chrome-512x512.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\android-chrome-512x512.png",
       "PackagePath": "staticwebassets\\media\\android-chrome-512x512.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\apple-touch-icon.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\media\\apple-touch-icon.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\arrow-back.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\arrow-back.png",
       "PackagePath": "staticwebassets\\media\\arrow-back.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\arrow-next.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\arrow-next.png",
       "PackagePath": "staticwebassets\\media\\arrow-next.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\avatar.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\avatar.png",
       "PackagePath": "staticwebassets\\media\\avatar.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\banka.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\banka.png",
       "PackagePath": "staticwebassets\\media\\banka.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\banka2.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\banka2.png",
       "PackagePath": "staticwebassets\\media\\banka2.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\brand-img.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\brand-img.png",
       "PackagePath": "staticwebassets\\media\\brand-img.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\browserconfig.xml",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\browserconfig.xml",
       "PackagePath": "staticwebassets\\media\\browserconfig.xml"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\carts.jpg",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\carts.jpg",
       "PackagePath": "staticwebassets\\media\\carts.jpg"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\favicon-16x16.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\media\\favicon-16x16.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\favicon-32x32.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\media\\favicon-32x32.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\favicon.ico",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\favicon.ico",
       "PackagePath": "staticwebassets\\media\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\hit_sale_back.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\hit_sale_back.png",
       "PackagePath": "staticwebassets\\media\\hit_sale_back.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\hit_sales.jpg",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\hit_sales.jpg",
       "PackagePath": "staticwebassets\\media\\hit_sales.jpg"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img1.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img1.png",
       "PackagePath": "staticwebassets\\media\\img1.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img1_h.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img1_h.png",
       "PackagePath": "staticwebassets\\media\\img1_h.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img2.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img2.png",
       "PackagePath": "staticwebassets\\media\\img2.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img2_h.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img2_h.png",
       "PackagePath": "staticwebassets\\media\\img2_h.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img3.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img3.png",
       "PackagePath": "staticwebassets\\media\\img3.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img3_h.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img3_h.png",
       "PackagePath": "staticwebassets\\media\\img3_h.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img4.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img4.png",
       "PackagePath": "staticwebassets\\media\\img4.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\img4_h.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\img4_h.png",
       "PackagePath": "staticwebassets\\media\\img4_h.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\logo.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\logo.png",
       "PackagePath": "staticwebassets\\media\\logo.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\mstile-150x150.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\mstile-150x150.png",
       "PackagePath": "staticwebassets\\media\\mstile-150x150.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\profile.ico",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\profile.ico",
       "PackagePath": "staticwebassets\\media\\profile.ico"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\safari-pinned-tab.svg",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\safari-pinned-tab.svg",
       "PackagePath": "staticwebassets\\media\\safari-pinned-tab.svg"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\sber.png",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\sber.png",
       "PackagePath": "staticwebassets\\media\\sber.png"
     },
     {
-      "Id": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\wwwroot\\media\\site.webmanifest",
+      "Id": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\wwwroot\\media\\site.webmanifest",
       "PackagePath": "staticwebassets\\media\\site.webmanifest"
     },
     {

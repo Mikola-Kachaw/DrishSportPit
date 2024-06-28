@@ -49,3 +49,156 @@ C:\Users\SDA\source\repos\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\BigWhey
 C:\Users\SDA\source\repos\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\MaxierPage.razor.rz.scp.css
 C:\Users\SDA\source\repos\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\PaymentDialog.razor.rz.scp.css
 C:\Users\SDA\source\repos\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\Account.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\appsettings.Development.json
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\appsettings.json
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.staticwebassets.runtime.json
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.exe
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.deps.json
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.runtimeconfig.json
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\ServerPractic.pdb
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\HDD\практика\ServerPractic\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.csproj.AssemblyReference.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.GeneratedMSBuildEditorConfig.editorconfig
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.AssemblyInfoInputs.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.AssemblyInfo.cs
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.csproj.CoreCompileInputs.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.MvcApplicationPartsAssemblyInfo.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cs
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets\msbuild.ServerPractic.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerPractic.props
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerPractic.props
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerPractic.props
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets.pack.json
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets.build.json
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\staticwebassets.development.json
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\Account.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\BigWhey.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\MaxierPage.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\PaymentDialog.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Pages\ProductsPage.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Shared\FootherMain.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\bundle\ServerPractic.styles.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\scopedcss\projectbundle\ServerPractic.bundle.scp.css
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.csproj.CopyComplete
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.dll
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\refint\ServerPractic.dll
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.pdb
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ServerPractic.genruntimeconfig.cache
+D:\HDD\практика\ServerPractic\obj\Debug\net6.0\ref\ServerPractic.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\appsettings.Development.json
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\appsettings.json
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.staticwebassets.runtime.json
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.exe
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.deps.json
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.runtimeconfig.json
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.pdb
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+D:\HDD\практика\ServerPractic — копия\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.csproj.AssemblyReference.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.GeneratedMSBuildEditorConfig.editorconfig
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.AssemblyInfoInputs.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.AssemblyInfo.cs
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.csproj.CoreCompileInputs.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.MvcApplicationPartsAssemblyInfo.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cs
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.ServerPractic.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerPractic.props
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerPractic.props
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerPractic.props
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.pack.json
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.build.json
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.development.json
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Account.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\BigWhey.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\MaxierPage.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\PaymentDialog.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\ProductsPage.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\FootherMain.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\bundle\ServerPractic.styles.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\scopedcss\projectbundle\ServerPractic.bundle.scp.css
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.csproj.CopyComplete
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.dll
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\refint\ServerPractic.dll
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.pdb
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.genruntimeconfig.cache
+D:\HDD\практика\ServerPractic — копия\obj\Debug\net6.0\ref\ServerPractic.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.csproj.AssemblyReference.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.AssemblyInfoInputs.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.AssemblyInfo.cs
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.csproj.CoreCompileInputs.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.RazorAssemblyInfo.cs
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\refint\ServerPractic.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.pdb
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\appsettings.json
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.staticwebassets.runtime.json
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.exe
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.deps.json
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.runtimeconfig.json
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\ServerPractic.pdb
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.ServerPractic.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.build.ServerPractic.props
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ServerPractic.props
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ServerPractic.props
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Account.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\BigWhey.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Cart.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\MaxierPage.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\PaymentDialog.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Pages\ProductsPage.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\FootherMain.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\bundle\ServerPractic.styles.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\scopedcss\projectbundle\ServerPractic.bundle.scp.css
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPr.DEB0CEC7.Up2Date
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ServerPractic.genruntimeconfig.cache
+C:\Users\SDA\Desktop\ServerPractic — копия\obj\Debug\net6.0\ref\ServerPractic.dll

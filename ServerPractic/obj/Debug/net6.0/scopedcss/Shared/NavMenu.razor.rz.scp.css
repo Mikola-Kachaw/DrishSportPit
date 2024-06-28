@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 120px;
     padding: 10px 180px;
-    background-color: black;
+    background-color: #191919;
 }
 
 .menu-flex[b-n8jqge4pxw] {
@@ -48,7 +48,7 @@ li[b-n8jqge4pxw] {
 }
 
 
-a.nav-item[b-n8jqge4pxw] {
+a[b-n8jqge4pxw],nav-item[b-n8jqge4pxw] {
     cursor: pointer;
     text-decoration: none;
     color: white;

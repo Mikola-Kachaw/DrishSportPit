@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jGdlZ8Pj0fR4Y8EREQJpcYdxgK4FINhHNQBLCJ3EXvKuJJ8givT4TVYfCWgOIfAwyX5Lo+FmiHngbwO7OOhxjA==",
+  "dgSpecHash": "JNbz30ygNxar3jpmf8mqbpo9m8iZDxEO7IRagK+GMnf3xTmDsYaWQoRB1XnKVENwGOlfX9+3MeVw/MKnEqEjuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SDA\\source\\repos\\ServerPractic\\ServerPractic.csproj",
+  "projectFilePath": "C:\\Users\\SDA\\Desktop\\ServerPractic — копия\\ServerPractic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SDA\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.31\\microsoft.data.sqlite.core.6.0.31.nupkg.sha512",
     "C:\\Users\\SDA\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.31\\microsoft.entityframeworkcore.6.0.31.nupkg.sha512",

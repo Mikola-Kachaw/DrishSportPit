@@ -179,9 +179,7 @@ input:focus[b-x0vy0rqs37] {
     text-align: left;
     border: none;
     cursor: pointer;
-    &:hover
-
-{
+    &:hover {
     background-color: #a9a9a9;
 }
 

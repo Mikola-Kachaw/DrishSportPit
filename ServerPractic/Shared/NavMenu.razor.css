@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 120px;
     padding: 10px 180px;
-    background-color: black;
+    background-color: #191919;
 }
 
 .menu-flex {
@@ -48,7 +48,7 @@ li {
 }
 
 
-a.nav-item {
+a,nav-item {
     cursor: pointer;
     text-decoration: none;
     color: white;

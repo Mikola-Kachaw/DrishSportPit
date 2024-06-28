@@ -344,9 +344,7 @@ input:focus[b-x0vy0rqs37] {
     text-align: left;
     border: none;
     cursor: pointer;
-    &:hover
-
-{
+    &:hover {
     background-color: #a9a9a9;
 }
 
@@ -547,13 +545,80 @@ img[b-gxa26vpczj] {
         background-color: #717171;
     }
 
+.slideshow-container[b-gxa26vpczj] {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+/*Сделать изображения невидимыми по умолчанию*/
+.Containers[b-gxa26vpczj] {
+    display: none;
+}
+
+/*кнопки "вперед" и "назад"*/
+.back[b-gxa26vpczj], .forward[b-gxa26vpczj] {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: auto;
+    padding: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.4s ease;
+    user-select: none;
+    &:hover
+
+{
+    opacity: 1;
+}
+
+}
+
+/*Расположить кнопку "вперед" справа.*/
+.forward[b-gxa26vpczj] {
+    right: 0;
+}
+
+
+    .back:hover[b-gxa26vpczj], .forward:hover[b-gxa26vpczj] {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/*Анимация слайдов*/
+.fade[b-gxa26vpczj] {
+    animation: fade-b-gxa26vpczj 10s infinite; /*устанавливает одновременно имя анимации, длительность (10 секунд) и бесконечное повторение анимации.*/
+}
+
+@keyframes fade-b-gxa26vpczj {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/*Хит продаж*/
 .hit-container[b-gxa26vpczj] {
     margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     gap: 17px;
-    max-width: 1757px;
+    width: 100%;
     min-height: 783px;
 }
 
@@ -565,24 +630,30 @@ img[b-gxa26vpczj] {
     border: none;
 }
 
+
 .background[b-gxa26vpczj] {
     background-image: url('media/hit_sale_back.png');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    padding: 50px;
-    height: 738px;
+    position: relative;
+    min-height: 783px;
+    max-width: 1757px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Описание*/
 .hit-flex[b-gxa26vpczj] {
     display: flex;
     flex-wrap: wrap;
     gap: 100px;
-    padding: 50px;
+    padding: 50px 85px;
 }
 
     .hit-flex img[b-gxa26vpczj] {
-        height: 650px;
+        max-height: 467px;
     }
 
 .hit-description[b-gxa26vpczj] {
@@ -627,37 +698,35 @@ img[b-gxa26vpczj] {
     max-width: 702px;
     padding: 46px 34px 34px;
     font-family: AriBlk;
-    font-style: bold;
     background-color: #E2E2E2;
     border-radius: 20px;
+    color: #E2E2E2;
+    margin-right: 113px;
+    font-style: bold;
     transition: all 0.5s ease-in-out;
 }
 
-    .brand-1:hover[b-gxa26vpczj] {
-        background-color: black;
-        transition: all 0.5s ease-in-out;
-    }
-
-.brand-1-text[b-gxa26vpczj] {
+.brand-1:hover[b-gxa26vpczj] {
+    background-color: black;
+    transition: all 0.5s ease-in-out;
     color: white;
     font-size: 40px;
     margin-right: 113px;
-    margin-top: 12px;
-    font-style: Arial;
-    opacity: 0;
+    font-style: bold;
+}
+
+.brand-1 svg[b-gxa26vpczj] {
+    margin-top: 250px;
+    position: absolute;
     transition: all 0.5s ease-in-out;
 }
 
-    .brand-1-text:hover[b-gxa26vpczj] {
-        opacity: 1;
-        transition: all 0.5s ease-in-out;
-    }
-
-.maxler[b-gxa26vpczj] {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.brand-1:hover svg[b-gxa26vpczj] {
+    position: relative;
+    margin-top: -35px;
+    transition: all 0.5s ease-in-out;
 }
+
 
 .brand-2[b-gxa26vpczj] {
     max-width: 702px;
@@ -667,10 +736,10 @@ img[b-gxa26vpczj] {
     transition: all 0.5s ease-in-out;
 }
 
-    .brand-2:hover[b-gxa26vpczj] {
-        background-color: black;
-        transition: all 0.5s ease-in-out;
-    }
+.brand-2:hover[b-gxa26vpczj] {
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+ }
 
 .accordion-info[b-gxa26vpczj] {
     font-family: Arial;
@@ -735,29 +804,31 @@ iframe[b-gxa26vpczj] {
     margin-bottom: 70px;
 }
 
-    .contact__label input[b-gxa26vpczj] {
-        font-size: 14px;
-        line-height: 150%;
-        padding: 20px 0;
-        border: none;
-        border-bottom: solid;
-        width: 257px;
-        background: none;
-        outline: none;
-        color: #fff;
-    }
+.contact__label input[b-gxa26vpczj] {
+    font-family:Arial;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 20px 0;
+    border: none;
+    border-bottom: solid;
+    width: 257px;
+    background: none;
+    outline: none;
+    color: #fff;
+}
 
-    .contact__label[b-gxa26vpczj]::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 257px;
-        height: 1px;
-        background: #2d2d2d;
-    }
+.contact__label[b-gxa26vpczj]::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 257px;
+    height: 1px;
+    background: #2d2d2d;
+}
 
 .contact__button[b-gxa26vpczj] {
+    font-family: Arial;
     font-size: 14px;
     font-weight: 700;
     line-height: 150%;
@@ -775,11 +846,11 @@ iframe[b-gxa26vpczj] {
     transition: all .3s;
 }
 
-    .contact__button:hover[b-gxa26vpczj] {
-        background: #000000;
-        color: #fff;
-        box-shadow: 2px 2px 20px 0px #00000075;
-    }
+.contact__button:hover[b-gxa26vpczj] {
+    background: #000000;
+    color: #fff;
+    box-shadow: 2px 2px 20px 0px #00000075;
+}
 
 .contact__block[b-gxa26vpczj] {
     margin-bottom: 45px;
@@ -1002,7 +1073,7 @@ li[b-kteqgpsiys] {
     width: 100%;
     min-height: 120px;
     padding: 10px 180px;
-    background-color: black;
+    background-color: #191919;
 }
 
 .menu-flex[b-n8jqge4pxw] {
@@ -1048,7 +1119,7 @@ li[b-n8jqge4pxw] {
 }
 
 
-a.nav-item[b-n8jqge4pxw] {
+a[b-n8jqge4pxw],nav-item[b-n8jqge4pxw] {
     cursor: pointer;
     text-decoration: none;
     color: white;
