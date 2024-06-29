@@ -1,5 +1,3 @@
-
-
 <h1><img src="FRONTEND/media/android-chrome-512x512.png" height="40"/> DrishSportPit</h1>
 
 Наша команда рапределила роли таким образом:
@@ -93,7 +91,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909628/u307080556/docs/d14/fec61b8310cb/2.gif?extra=0yvKv3bz-UmmPatOHypDJbJiHuLJNwyTloa5as1fxr6PK7qz5mtD7zh7Zt6MQ4R8LpcGI3uMY6UCBhCu3YeXz_-yWaMnMDM0cs92dUQ78DtIuX7OB0irP4u7-jtfSygSBZcCWnXlC1hwztwdd3jT5AiEjA"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d42/e6673212db74/31.gif?extra=pVcJsluUpL_LOC2kqVJuXk1BdU-W1EnE0M-o4NXrx1xOObkZZfRz-7Na4yxQsaeAnkf_rJg9uPrH9V2hEM0UBcpDoLg-PxgunBuwjcVvYp2fJCEamqrWNpfg5njoB-PB2L7fBtSJX510CeT7rAO0HWo8dg"/>
 </p>
 
 ___
@@ -102,12 +100,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909628/u307080556/docs/d24/19efad39a6b6/3.gif?extra=J3qcfglUcVa9r2aVmycpJz50Dv8nccyjqK8KOOio2pKKqw7CiEeQn3XBItStSMNzD-rdZ7MlxG-x0CanfBB6Jp97J1ZG1t7oGLcN_dpp1onWlZEzdFmXrqOHU8CYjGMQgDG0zqv9ZtVd1a1EzAV65qRVmw\"/>
-</p>
-
-
-<p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909628/u307080556/docs/d51/c2011a6983a0/4.gif?extra=j5BUS7Me1q5kZ4ikWmqEuUgQ29sVD52smDpQ7q7QJeAg-9mBgW6v7M4Fw7UYPqA14M6DU0hV6_bPXfPTiaxGPTZB1ewzglstPnRq3IhqRXexVw3DtiQvGRbWAkEsZTZCONMxGSxNifL1JSm_sh5eRrjYzg"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d57/274431a8cf8c/32.gif?extra=8-UoqFVlW0oGVqXSFr-YlTLICxhGBhqlO5oQAqMEGXwPTxNi6gxEmHKzzVUsghle0BYNgT0m6zQWI7BF8Ae0c2IgDS8Ce1YAbPEvef4gkb0k4egvOFmteMqj9IOTz_kIxDJiJMEjReNwKtkhjbOuZx6qZA"/>
 </p>
 
 ___
@@ -161,7 +154,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909628/u307080556/docs/d33/45fa3f7f9508/10.gif?extra=llPnrPlqWOLBFMD1K23cwVKK6aukP7Q2EqiO5vzKdoKyXYL0Qa7mCrI8dowlSBNE3Xr2MH8HL37xB2e1JZGmpPoE3mB7Bc-DqOnofUYYuOYwZFV3CL8Fs0j_fpLSeJvNQhOvEjLhkIUUDAi-TA9gmha2dQ"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d11/7a94715a81d8/33.gif?extra=W5qRFWUD9q4xMO4up0h1ItBNp00woDh0y0SxMw_x3MAzGlg4RKRye_iT-tK2eJmBVCZE_5tVXhy8Giuq0DA6eBwB15FjTaIRi65WQFg2SH7wiLO_1n-slmkzx6iA7nv3zIQ45XNR1dLGnyobRfl6hewZFg"/>
 </p>
 
 ___
@@ -266,7 +259,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d14/47c0090db17b/22.gif?extra=heklOQGBKbtfStOoKRq3Z8MQ7ulIBZtgfI9eFDDT1Cq32PFxxEuzwRQ1jLbsLrt9ufmoySRtIVjsmKUfhhSgt0TM0plYqWVquAvpxVmE5YcfMv1aX9dohPj1_aljWzzH1UjmnDCXDWJP7uVRUpI-Np2SrA"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d41/19838cc767d1/36.gif?extra=uqLRMnmf0vSC76Xys0g1HmusTDpLIWsbG8H2cejxBlale_fi2qnsYw8Qcaq3jPtZ6EcPzkqJPoEHL20Z7nwRXhVmg9omG8-mf895ZcOLWfRHtcmnumE3F3iXSk48HqrWllcvIoGGwwYHAggc5sfREGtoYQ"/>
 </p>
 
 ___
@@ -275,7 +268,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d11/c9734888a260/23.gif?extra=TLxPpkRUR6lAP6Of2NRxNiYKjCXAqvV5tY8Ho5X60euDeotqZ9kB621pOEvvVohp3TftTl9KLqiSZOZMyIb2wJqe3kBEW1Cj8bCjHp2efzKL3tdU4cgwo40vqdR0WlxtZa2CLLXXpFKDUgdxzwGgY6-S_Q"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d41/7e6ededc519b/34.gif?extra=9moDt_z3JfNdso68OxVcWeSsujUKdmfmX1LQhYuk_ocryMxwKMJVzgEIPl72uIkXTg5ORV5PIdK2J151YumKxt4S0Nh6ls6yEE1ZHUqvIk_uCswlmDMlJySGgvI-HnUEhsKyawRar4vDamj8sKh87XR1YA"/>
 </p>
 
 ___
@@ -329,7 +322,7 @@ ___
   </p>
 <br>
 <p align="center" width="100%">
-  <img src="https://psv4.userapi.com/c909628/u307080556/docs/d33/45fa3f7f9508/10.gif?extra=llPnrPlqWOLBFMD1K23cwVKK6aukP7Q2EqiO5vzKdoKyXYL0Qa7mCrI8dowlSBNE3Xr2MH8HL37xB2e1JZGmpPoE3mB7Bc-DqOnofUYYuOYwZFV3CL8Fs0j_fpLSeJvNQhOvEjLhkIUUDAi-TA9gmha2dQ"/>
+  <img src="https://psv4.userapi.com/c909328/u307080556/docs/d11/7a94715a81d8/33.gif?extra=W5qRFWUD9q4xMO4up0h1ItBNp00woDh0y0SxMw_x3MAzGlg4RKRye_iT-tK2eJmBVCZE_5tVXhy8Giuq0DA6eBwB15FjTaIRi65WQFg2SH7wiLO_1n-slmkzx6iA7nv3zIQ45XNR1dLGnyobRfl6hewZFg"/>
 </p>
 
 ___
