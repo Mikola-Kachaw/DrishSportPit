@@ -30,7 +30,7 @@ ___
 Разработка дизайна началась 18 июня, тогда был разработан логотип магазина.
 <br><br>
 <p align="center" width="100%">
-  <img src="FRONTEND/media/logo.ico"/>
+  <img src="FRONTEND/media/logo.png"/>
 </p>
 
 ___
